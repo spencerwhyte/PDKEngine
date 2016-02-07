@@ -1,0 +1,586 @@
+TPDKEngine
+v7
+r0
+t313144035.699063
+cCheck dependencies
+cProcessInfoPlistFile /Users/spencerwhyte/Desktop/PDKEngine/build/Debug-iphonesimulator/PDKEngine.app/Info.plist PDKEngine-Info.plist
+cCpResource build/Debug-iphonesimulator/PDKEngine.app/Shader.fsh Shaders/Shader.fsh
+cCpResource build/Debug-iphonesimulator/PDKEngine.app/Shader.vsh Shaders/Shader.vsh
+cCompileXIB /Users/spencerwhyte/Desktop/PDKEngine/MainWindow.xib
+cCompileXIB /Users/spencerwhyte/Desktop/PDKEngine/Classes/../PDKEngineViewController.xib
+cProcessPCH /var/folders/t+/t+mDLEErH10OmrEqCleGzk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PDKEngine_Prefix-hjohbexketsvgddvibrkuvnplduh/PDKEngine_Prefix.pch.gch PDKEngine_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/PDKEngine.build/Debug-iphonesimulator/PDKEngine.build/Objects-normal/i386/main.o /Users/spencerwhyte/Desktop/PDKEngine/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/PDKEngine.build/Debug-iphonesimulator/PDKEngine.build/Objects-normal/i386/PDKEngineAppDelegate.o /Users/spencerwhyte/Desktop/PDKEngine/Classes/PDKEngineAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/PDKEngine.build/Debug-iphonesimulator/PDKEngine.build/Objects-normal/i386/EAGLView.o /Users/spencerwhyte/Desktop/PDKEngine/Classes/EAGLView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/PDKEngine.build/Debug-iphonesimulator/PDKEngine.build/Objects-normal/i386/PDKEngineViewController.o /Users/spencerwhyte/Desktop/PDKEngine/Classes/PDKEngineViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk
+c000000004C6C30170000000000000110
+t1282158615
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004C5A4DB0000000000029D580
+t1280986544
+s2741632
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004C5A4DA10000000000001466
+t1280986529
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/EAGL.h
+c000000004C5A4E4D000000000000094F
+t1280986701
+s2383
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES1/gl.h
+c000000004C5A4E4D0000000000009369
+t1280986701
+s37737
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES1/glext.h
+c000000004C5A4E4D0000000000003C4A
+t1280986701
+s15434
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES2/gl.h
+c000000004C5A4E4D00000000000092AA
+t1280986701
+s37546
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES2/glext.h
+c000000004C5A4E4D00000000000026AA
+t1280986701
+s9898
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/OpenGLES.framework/OpenGLES
+c000000004C5A4E570000000000019D60
+t1280986711
+s105824
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.h
+c000000004C5A505200000000000000C4
+t1280987218
+s196
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c000000004C5A50EF0000000000154E50
+t1280987375
+s1396304
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004C6241ED00000000000009CD
+t1281507821
+s2509
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004C6242840000000001E228C0
+t1281507972
+s31598784
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/usr/include/Availability.h
+c000000004C57A0390000000000001A5C
+t1280811065
+s6748
+
+N/Users/spencerwhyte/Desktop/PDKEngine/Classes/../PDKEngineViewController.xib
+c000000004CF9F9DC00000000000043F5
+t1291450844
+s17397
+
+N/Users/spencerwhyte/Desktop/PDKEngine/Classes/EAGLView.h
+c000000004CF9FB4700000000000003F3
+t1291451207
+s1011
+i<UIKit/UIKit.h>
+i<OpenGLES/ES1/gl.h>
+i<OpenGLES/ES1/glext.h>
+i<OpenGLES/ES2/gl.h>
+i<OpenGLES/ES2/glext.h>
+
+N/Users/spencerwhyte/Desktop/PDKEngine/Classes/EAGLView.m
+c000000004CF9FB5200000000000011F1
+t1291451218
+s4593
+i<QuartzCore/QuartzCore.h>
+i"EAGLView.h"
+
+N/Users/spencerwhyte/Desktop/PDKEngine/Classes/PDKEngineAppDelegate.h
+c000000004CF9F9DC00000000000001ED
+t1291450844
+s493
+i<UIKit/UIKit.h>
+
+N/Users/spencerwhyte/Desktop/PDKEngine/Classes/PDKEngineAppDelegate.m
+c000000004CF9F9DC00000000000003F7
+t1291450844
+s1015
+i"PDKEngineAppDelegate.h"
+i"PDKEngineViewController.h"
+
+N/Users/spencerwhyte/Desktop/PDKEngine/Classes/PDKEngineViewController.h
+c000000004CF9F9DC0000000000000433
+t1291450844
+s1075
+i<UIKit/UIKit.h>
+i<OpenGLES/EAGL.h>
+i<OpenGLES/ES1/gl.h>
+i<OpenGLES/ES1/glext.h>
+i<OpenGLES/ES2/gl.h>
+i<OpenGLES/ES2/glext.h>
+
+N/Users/spencerwhyte/Desktop/PDKEngine/Classes/PDKEngineViewController.m
+c000000004CF9FB55000000000000284C
+t1291451221
+s10316
+i<QuartzCore/QuartzCore.h>
+i"PDKEngineViewController.h"
+i"EAGLView.h"
+
+N/Users/spencerwhyte/Desktop/PDKEngine/MainWindow.xib
+c000000004CF9F9DC0000000000005533
+t1291450844
+s21811
+
+N/Users/spencerwhyte/Desktop/PDKEngine/PDKEngine_Prefix.pch
+c000000004CF9F9DC000000000000013C
+t1291450844
+s316
+i<Availability.h>
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/spencerwhyte/Desktop/PDKEngine/Shaders/Shader.fsh
+c000000004CF9F9DC00000000000000DE
+t1291450844
+s222
+
+N/Users/spencerwhyte/Desktop/PDKEngine/Shaders/Shader.vsh
+c000000004CF9F9DC0000000000000164
+t1291450844
+s356
+
+N/Users/spencerwhyte/Desktop/PDKEngine/build/Debug-iphonesimulator/PDKEngine.app
+t2
+s0
+
+N/Users/spencerwhyte/Desktop/PDKEngine/build/Debug-iphonesimulator/PDKEngine.app.dSYM
+t2
+s0
+
+N/Users/spencerwhyte/Desktop/PDKEngine/build/Debug-iphonesimulator/PDKEngine.app/Info.plist
+t1291451233
+s626
+
+N/Users/spencerwhyte/Desktop/PDKEngine/build/Debug-iphonesimulator/PDKEngine.app/MainWindow.nib
+t1291451234
+s1811
+
+N/Users/spencerwhyte/Desktop/PDKEngine/build/Debug-iphonesimulator/PDKEngine.app/PDKEngine
+t2
+s0
+
+N/Users/spencerwhyte/Desktop/PDKEngine/build/Debug-iphonesimulator/PDKEngine.app/PDKEngineViewController.nib
+t1291451234
+s1342
+
+N/Users/spencerwhyte/Desktop/PDKEngine/build/Debug-iphonesimulator/PDKEngine.app/PkgInfo
+t1291451233
+s8
+
+N/Users/spencerwhyte/Desktop/PDKEngine/build/Debug-iphonesimulator/PDKEngine.app/Shader.fsh
+t1291451233
+s222
+
+N/Users/spencerwhyte/Desktop/PDKEngine/build/Debug-iphonesimulator/PDKEngine.app/Shader.vsh
+t1291451233
+s356
+
+N/Users/spencerwhyte/Desktop/PDKEngine/build/PDKEngine.build/Debug-iphonesimulator/PDKEngine.build/Objects-normal/i386/EAGLView.o
+t1291451235
+s46800
+
+N/Users/spencerwhyte/Desktop/PDKEngine/build/PDKEngine.build/Debug-iphonesimulator/PDKEngine.build/Objects-normal/i386/PDKEngine.LinkFileList
+c000000004CF9FB61000000000000021B
+t1291451233
+s539
+
+N/Users/spencerwhyte/Desktop/PDKEngine/build/PDKEngine.build/Debug-iphonesimulator/PDKEngine.build/Objects-normal/i386/PDKEngineAppDelegate.o
+t1291451235
+s47600
+
+N/Users/spencerwhyte/Desktop/PDKEngine/build/PDKEngine.build/Debug-iphonesimulator/PDKEngine.build/Objects-normal/i386/PDKEngineViewController.o
+t2
+s0
+
+N/Users/spencerwhyte/Desktop/PDKEngine/build/PDKEngine.build/Debug-iphonesimulator/PDKEngine.build/Objects-normal/i386/main.o
+t1291451235
+s6300
+
+N/Users/spencerwhyte/Desktop/PDKEngine/main.m
+c000000004CF9F9DC000000000000016D
+t1291450844
+s365
+i<UIKit/UIKit.h>
+
+N/var/folders/t+/t+mDLEErH10OmrEqCleGzk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PDKEngine_Prefix-hjohbexketsvgddvibrkuvnplduh/PDKEngine_Prefix.pch.gch
+t1291451235
+s15203344
+
+NPDKEngine-Info.plist
+c000000004CF9F9DC00000000000003B4
+t1291450844
+s948
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies313144033#313144033#0(0"0(0#1#0"8619972448#0"0#
+
+CCompileC build/PDKEngine.build/Debug-iphonesimulator/PDKEngine.build/Objects-normal/i386/EAGLView.o /Users/spencerwhyte/Desktop/PDKEngine/Classes/EAGLView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s313144035.549241
+e313144035.698991
+r1
+xCompileC
+xbuild/PDKEngine.build/Debug-iphonesimulator/PDKEngine.build/Objects-normal/i386/EAGLView.o
+x/Users/spencerwhyte/Desktop/PDKEngine/Classes/EAGLView.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/spencerwhyte/Desktop/PDKEngine/Classes/EAGLView.m: In function '-[EAGLView setupView]':
+o/Users/spencerwhyte/Desktop/PDKEngine/Classes/EAGLView.m:56: warning: implicit declaration of function 'DEGREES_TO_RADIANS'
+lSLF07#2@64"Compile /Users/spencerwhyte/Desktop/PDKEngine/Classes/EAGLView.m313144035#313144035#0(219"/Users/spencerwhyte/Desktop/PDKEngine/Classes/EAGLView.m: In function '-[EAGLView setupView]':/Users/spencerwhyte/Desktop/PDKEngine/Classes/EAGLView.m:56: warning: implicit declaration of function 'DEGREES_TO_RADIANS'1(22@53"Implicit declaration of function 'DEGREES_TO_RADIANS'313144035#95#124#0(6@56"/Users/spencerwhyte/Desktop/PDKEngine/Classes/EAGLView.m313144018#56#0#56#0#36"implicit declaration of function '*'0(0#0#56"/Users/spencerwhyte/Desktop/PDKEngine/Classes/EAGLView.m8627815520#1967"    cd /Users/spencerwhyte/Desktop/PDKEngine    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/spencerwhyte/Desktop/PDKEngine/build/PDKEngine.build/Debug-iphonesimulator/PDKEngine.build/PDKEngine-generated-files.hmap -I/Users/spencerwhyte/Desktop/PDKEngine/build/PDKEngine.build/Debug-iphonesimulator/PDKEngine.build/PDKEngine-own-target-headers.hmap -I/Users/spencerwhyte/Desktop/PDKEngine/build/PDKEngine.build/Debug-iphonesimulator/PDKEngine.build/PDKEngine-all-target-headers.hmap -iquote /Users/spencerwhyte/Desktop/PDKEngine/build/PDKEngine.build/Debug-iphonesimulator/PDKEngine.build/PDKEngine-project-headers.hmap -F/Users/spencerwhyte/Desktop/PDKEngine/build/Debug-iphonesimulator -I/Users/spencerwhyte/Desktop/PDKEngine/build/Debug-iphonesimulator/include -I/Users/spencerwhyte/Desktop/PDKEngine/build/PDKEngine.build/Debug-iphonesimulator/PDKEngine.build/DerivedSources/i386 -I/Users/spencerwhyte/Desktop/PDKEngine/build/PDKEngine.build/Debug-iphonesimulator/PDKEngine.build/DerivedSources -include /var/folders/t+/t+mDLEErH10OmrEqCleGzk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PDKEngine_Prefix-hjohbexketsvgddvibrkuvnplduh/PDKEngine_Prefix.pch -c /Users/spencerwhyte/Desktop/PDKEngine/Classes/EAGLView.m -o /Users/spencerwhyte/Desktop/PDKEngine/build/PDKEngine.build/Debug-iphonesimulator/PDKEngine.build/Objects-normal/i386/EAGLView.o0#
+
+CCompileC build/PDKEngine.build/Debug-iphonesimulator/PDKEngine.build/Objects-normal/i386/PDKEngineAppDelegate.o /Users/spencerwhyte/Desktop/PDKEngine/Classes/PDKEngineAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s313144035.547977
+e313144035.647714
+r1
+xCompileC
+xbuild/PDKEngine.build/Debug-iphonesimulator/PDKEngine.build/Objects-normal/i386/PDKEngineAppDelegate.o
+x/Users/spencerwhyte/Desktop/PDKEngine/Classes/PDKEngineAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@76"Compile /Users/spencerwhyte/Desktop/PDKEngine/Classes/PDKEngineAppDelegate.m313144035#313144035#0(0"0(0#0#68"/Users/spencerwhyte/Desktop/PDKEngine/Classes/PDKEngineAppDelegate.m8628041728#1991"    cd /Users/spencerwhyte/Desktop/PDKEngine    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/spencerwhyte/Desktop/PDKEngine/build/PDKEngine.build/Debug-iphonesimulator/PDKEngine.build/PDKEngine-generated-files.hmap -I/Users/spencerwhyte/Desktop/PDKEngine/build/PDKEngine.build/Debug-iphonesimulator/PDKEngine.build/PDKEngine-own-target-headers.hmap -I/Users/spencerwhyte/Desktop/PDKEngine/build/PDKEngine.build/Debug-iphonesimulator/PDKEngine.build/PDKEngine-all-target-headers.hmap -iquote /Users/spencerwhyte/Desktop/PDKEngine/build/PDKEngine.build/Debug-iphonesimulator/PDKEngine.build/PDKEngine-project-headers.hmap -F/Users/spencerwhyte/Desktop/PDKEngine/build/Debug-iphonesimulator -I/Users/spencerwhyte/Desktop/PDKEngine/build/Debug-iphonesimulator/include -I/Users/spencerwhyte/Desktop/PDKEngine/build/PDKEngine.build/Debug-iphonesimulator/PDKEngine.build/DerivedSources/i386 -I/Users/spencerwhyte/Desktop/PDKEngine/build/PDKEngine.build/Debug-iphonesimulator/PDKEngine.build/DerivedSources -include /var/folders/t+/t+mDLEErH10OmrEqCleGzk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PDKEngine_Prefix-hjohbexketsvgddvibrkuvnplduh/PDKEngine_Prefix.pch -c /Users/spencerwhyte/Desktop/PDKEngine/Classes/PDKEngineAppDelegate.m -o /Users/spencerwhyte/Desktop/PDKEngine/build/PDKEngine.build/Debug-iphonesimulator/PDKEngine.build/Objects-normal/i386/PDKEngineAppDelegate.o0#
+
+CCompileC build/PDKEngine.build/Debug-iphonesimulator/PDKEngine.build/Objects-normal/i386/PDKEngineViewController.o /Users/spencerwhyte/Desktop/PDKEngine/Classes/PDKEngineViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s313144035.550780
+e313144035.661809
+r0
+xCompileC
+xbuild/PDKEngine.build/Debug-iphonesimulator/PDKEngine.build/Objects-normal/i386/PDKEngineViewController.o
+x/Users/spencerwhyte/Desktop/PDKEngine/Classes/PDKEngineViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/spencerwhyte/Desktop/PDKEngine/Classes/PDKEngineViewController.m: In function '-[PDKEngineViewController drawFrame]':
+o/Users/spencerwhyte/Desktop/PDKEngine/Classes/PDKEngineViewController.m:200: error: 'transY' undeclared (first use in this function)
+o/Users/spencerwhyte/Desktop/PDKEngine/Classes/PDKEngineViewController.m:200: error: (Each undeclared identifier is reported only once
+o/Users/spencerwhyte/Desktop/PDKEngine/Classes/PDKEngineViewController.m:200: error: for each function it appears in.)
+o/Users/spencerwhyte/Desktop/PDKEngine/Classes/PDKEngineViewController.m:204: error: 'squareVertices' undeclared (first use in this function)
+o/Users/spencerwhyte/Desktop/PDKEngine/Classes/PDKEngineViewController.m:206: error: 'squareColors' undeclared (first use in this function)
+o{standard input}:911:non-relocatable subtraction expression, "L_OBJC_IVAR_$_PDKEngineViewController.animating$non_lazy_ptr" minus "L00000000009$pb"
+o{standard input}:911:symbol: "L_OBJC_IVAR_$_PDKEngineViewController.animating$non_lazy_ptr" can't be undefined in a subtraction expression
+o{standard input}:903:non-relocatable subtraction expression, "L_OBJC_IVAR_$_PDKEngineViewController.animationTimer$non_lazy_ptr" minus "L00000000009$pb"
+o{standard input}:903:symbol: "L_OBJC_IVAR_$_PDKEngineViewController.animationTimer$non_lazy_ptr" can't be undefined in a subtraction expression
+o{standard input}:896:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_25" minus "L00000000009$pb"
+o{standard input}:896:symbol: "L_OBJC_SELECTOR_REFERENCES_25" can't be undefined in a subtraction expression
+o{standard input}:890:non-relocatable subtraction expression, "L_OBJC_IVAR_$_PDKEngineViewController.animationTimer$non_lazy_ptr" minus "L00000000009$pb"
+o{standard input}:890:symbol: "L_OBJC_IVAR_$_PDKEngineViewController.animationTimer$non_lazy_ptr" can't be undefined in a subtraction expression
+o{standard input}:881:non-relocatable subtraction expression, "L_OBJC_IVAR_$_PDKEngineViewController.displayLink$non_lazy_ptr" minus "L00000000009$pb"
+o{standard input}:881:symbol: "L_OBJC_IVAR_$_PDKEngineViewController.displayLink$non_lazy_ptr" can't be undefined in a subtraction expression
+o{standard input}:874:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_25" minus "L00000000009$pb"
+o{standard input}:874:symbol: "L_OBJC_SELECTOR_REFERENCES_25" can't be undefined in a subtraction expression
+o{standard input}:869:non-relocatable subtraction expression, "L_OBJC_IVAR_$_PDKEngineViewController.displayLink$non_lazy_ptr" minus "L00000000009$pb"
+o{standard input}:869:symbol: "L_OBJC_IVAR_$_PDKEngineViewController.displayLink$non_lazy_ptr" can't be undefined in a subtraction expression
+o{standard input}:860:non-relocatable subtraction expression, "L_OBJC_IVAR_$_PDKEngineViewController.displayLinkSupported$non_lazy_ptr" minus "L00000000009$pb"
+o{standard input}:860:symbol: "L_OBJC_IVAR_$_PDKEngineViewController.displayLinkSupported$non_lazy_ptr" can't be undefined in a subtraction expression
+o{standard input}:851:non-relocatable subtraction expression, "L_OBJC_IVAR_$_PDKEngineViewController.animating$non_lazy_ptr" minus "L00000000009$pb"
+o{standard input}:851:symbol: "L_OBJC_IVAR_$_PDKEngineViewController.animating$non_lazy_ptr" can't be undefined in a subtraction expression
+o{standard input}:820:non-relocatable subtraction expression, "L_OBJC_IVAR_$_PDKEngineViewController.animating$non_lazy_ptr" minus "L00000000008$pb"
+o{standard input}:820:symbol: "L_OBJC_IVAR_$_PDKEngineViewController.animating$non_lazy_ptr" can't be undefined in a subtraction expression
+o{standard input}:805:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_24" minus "L00000000008$pb"
+o{standard input}:805:symbol: "L_OBJC_SELECTOR_REFERENCES_24" can't be undefined in a subtraction expression
+o{standard input}:802:non-relocatable subtraction expression, "LC8" minus "L00000000008$pb"
+o{standard input}:802:symbol: "LC8" can't be undefined in a subtraction expression
+o{standard input}:796:non-relocatable subtraction expression, "L_OBJC_IVAR_$_PDKEngineViewController.animationFrameInterval$non_lazy_ptr" minus "L00000000008$pb"
+o{standard input}:796:symbol: "L_OBJC_IVAR_$_PDKEngineViewController.animationFrameInterval$non_lazy_ptr" can't be undefined in a subtraction expression
+o{standard input}:791:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_19" minus "L00000000008$pb"
+o{standard input}:791:symbol: "L_OBJC_SELECTOR_REFERENCES_19" can't be undefined in a subtraction expression
+o{standard input}:788:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_REFERENCES_$_4" minus "L00000000008$pb"
+o{standard input}:788:symbol: "L_OBJC_CLASSLIST_REFERENCES_$_4" can't be undefined in a subtraction expression
+o{standard input}:783:non-relocatable subtraction expression, "L_OBJC_IVAR_$_PDKEngineViewController.animationTimer$non_lazy_ptr" minus "L00000000008$pb"
+o{standard input}:783:symbol: "L_OBJC_IVAR_$_PDKEngineViewController.animationTimer$non_lazy_ptr" can't be undefined in a subtraction expression
+o{standard input}:772:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_23" minus "L00000000008$pb"
+o{standard input}:772:symbol: "L_OBJC_SELECTOR_REFERENCES_23" can't be undefined in a subtraction expression
+o{standard input}:766:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_22" minus "L00000000008$pb"
+o{standard input}:766:symbol: "L_OBJC_SELECTOR_REFERENCES_22" can't be undefined in a subtraction expression
+o{standard input}:763:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_REFERENCES_$_3" minus "L00000000008$pb"
+o{standard input}:763:symbol: "L_OBJC_CLASSLIST_REFERENCES_$_3" can't be undefined in a subtraction expression
+o{standard input}:760:non-relocatable subtraction expression, "L_NSDefaultRunLoopMode$non_lazy_ptr" minus "L00000000008$pb"
+o{standard input}:760:symbol: "L_NSDefaultRunLoopMode$non_lazy_ptr" can't be undefined in a subtraction expression
+o{standard input}:755:non-relocatable subtraction expression, "L_OBJC_IVAR_$_PDKEngineViewController.displayLink$non_lazy_ptr" minus "L00000000008$pb"
+o{standard input}:755:symbol: "L_OBJC_IVAR_$_PDKEngineViewController.displayLink$non_lazy_ptr" can't be undefined in a subtraction expression
+o{standard input}:747:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_21" minus "L00000000008$pb"
+o{standard input}:747:symbol: "L_OBJC_SELECTOR_REFERENCES_21" can't be undefined in a subtraction expression
+o{standard input}:742:non-relocatable subtraction expression, "L_OBJC_IVAR_$_PDKEngineViewController.animationFrameInterval$non_lazy_ptr" minus "L00000000008$pb"
+o{standard input}:742:symbol: "L_OBJC_IVAR_$_PDKEngineViewController.animationFrameInterval$non_lazy_ptr" can't be undefined in a subtraction expression
+o{standard input}:736:non-relocatable subtraction expression, "L_OBJC_IVAR_$_PDKEngineViewController.displayLink$non_lazy_ptr" minus "L00000000008$pb"
+o{standard input}:736:symbol: "L_OBJC_IVAR_$_PDKEngineViewController.displayLink$non_lazy_ptr" can't be undefined in a subtraction expression
+o{standard input}:726:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_20" minus "L00000000008$pb"
+o{standard input}:726:symbol: "L_OBJC_SELECTOR_REFERENCES_20" can't be undefined in a subtraction expression
+o{standard input}:723:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_19" minus "L00000000008$pb"
+o{standard input}:723:symbol: "L_OBJC_SELECTOR_REFERENCES_19" can't be undefined in a subtraction expression
+o{standard input}:714:non-relocatable subtraction expression, "L_OBJC_IVAR_$_PDKEngineViewController.displayLink$non_lazy_ptr" minus "L00000000008$pb"
+o{standard input}:714:symbol: "L_OBJC_IVAR_$_PDKEngineViewController.displayLink$non_lazy_ptr" can't be undefined in a subtraction expression
+o{standard input}:705:non-relocatable subtraction expression, "L_OBJC_IVAR_$_PDKEngineViewController.displayLinkSupported$non_lazy_ptr" minus "L00000000008$pb"
+o{standard input}:705:symbol: "L_OBJC_IVAR_$_PDKEngineViewController.displayLinkSupported$non_lazy_ptr" can't be undefined in a subtraction expression
+o{standard input}:696:non-relocatable subtraction expression, "L_OBJC_IVAR_$_PDKEngineViewController.animating$non_lazy_ptr" minus "L00000000008$pb"
+o{standard input}:696:symbol: "L_OBJC_IVAR_$_PDKEngineViewController.animating$non_lazy_ptr" can't be undefined in a subtraction expression
+o{standard input}:652:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_14" minus "L00000000007$pb"
+o{standard input}:652:symbol: "L_OBJC_SELECTOR_REFERENCES_14" can't be undefined in a subtraction expression
+o{standard input}:645:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_16" minus "L00000000007$pb"
+o{standard input}:645:symbol: "L_OBJC_SELECTOR_REFERENCES_16" can't be undefined in a subtraction expression
+o{standard input}:636:non-relocatable subtraction expression, "L_OBJC_IVAR_$_PDKEngineViewController.animating$non_lazy_ptr" minus "L00000000007$pb"
+o{standard input}:636:symbol: "L_OBJC_IVAR_$_PDKEngineViewController.animating$non_lazy_ptr" can't be undefined in a subtraction expression
+o{standard input}:627:non-relocatable subtraction expression, "L_OBJC_IVAR_$_PDKEngineViewController.animationFrameInterval$non_lazy_ptr" minus "L00000000007$pb"
+o{standard input}:627:symbol: "L_OBJC_IVAR_$_PDKEngineViewController.animationFrameInterval$non_lazy_ptr" can't be undefined in a subtraction expression
+o{standard input}:598:non-relocatable subtraction expression, "L_OBJC_IVAR_$_PDKEngineViewController.animationFrameInterval$non_lazy_ptr" minus "L00000000006$pb"
+o{standard input}:598:symbol: "L_OBJC_IVAR_$_PDKEngineViewController.animationFrameInterval$non_lazy_ptr" can't be undefined in a subtraction expression
+o{standard input}:571:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_3" minus "L00000000005$pb"
+o{standard input}:571:symbol: "L_OBJC_SELECTOR_REFERENCES_3" can't be undefined in a subtraction expression
+o{standard input}:562:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_2" minus "L00000000005$pb"
+o{standard input}:562:symbol: "L_OBJC_SELECTOR_REFERENCES_2" can't be undefined in a subtraction expression
+o{standard input}:559:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_REFERENCES_$_0" minus "L00000000005$pb"
+o{standard input}:559:symbol: "L_OBJC_CLASSLIST_REFERENCES_$_0" can't be undefined in a subtraction expression
+o{standard input}:551:non-relocatable subtraction expression, "L_OBJC_IVAR_$_PDKEngineViewController.context$non_lazy_ptr" minus "L00000000005$pb"
+o{standard input}:551:symbol: "L_OBJC_IVAR_$_PDKEngineViewController.context$non_lazy_ptr" can't be undefined in a subtraction expression
+o{standard input}:544:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_12" minus "L00000000005$pb"
+o{standard input}:544:symbol: "L_OBJC_SELECTOR_REFERENCES_12" can't be undefined in a subtraction expression
+o{standard input}:541:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_REFERENCES_$_0" minus "L00000000005$pb"
+o{standard input}:541:symbol: "L_OBJC_CLASSLIST_REFERENCES_$_0" can't be undefined in a subtraction expression
+o{standard input}:534:non-relocatable subtraction expression, "L_OBJC_IVAR_$_PDKEngineViewController.program$non_lazy_ptr" minus "L00000000005$pb"
+o{standard input}:534:symbol: "L_OBJC_IVAR_$_PDKEngineViewController.program$non_lazy_ptr" can't be undefined in a subtraction expression
+o{standard input}:525:non-relocatable subtraction expression, "L_OBJC_IVAR_$_PDKEngineViewController.program$non_lazy_ptr" minus "L00000000005$pb"
+o{standard input}:525:symbol: "L_OBJC_IVAR_$_PDKEngineViewController.program$non_lazy_ptr" can't be undefined in a subtraction expression
+o{standard input}:516:non-relocatable subtraction expression, "L_OBJC_IVAR_$_PDKEngineViewController.program$non_lazy_ptr" minus "L00000000005$pb"
+o{standard input}:516:symbol: "L_OBJC_IVAR_$_PDKEngineViewController.program$non_lazy_ptr" can't be undefined in a subtraction expression
+o{standard input}:509:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_18" minus "L00000000005$pb"
+o{standard input}:509:symbol: "L_OBJC_SELECTOR_REFERENCES_18" can't be undefined in a subtraction expression
+o{standard input}:505:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_SUP_REFS_$_2" minus "L00000000005$pb"
+o{standard input}:505:symbol: "L_OBJC_CLASSLIST_SUP_REFS_$_2" can't be undefined in a subtraction expression
+o{standard input}:475:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_17" minus "L00000000004$pb"
+o{standard input}:475:symbol: "L_OBJC_SELECTOR_REFERENCES_17" can't be undefined in a subtraction expression
+o{standard input}:470:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_SUP_REFS_$_2" minus "L00000000004$pb"
+o{standard input}:470:symbol: "L_OBJC_CLASSLIST_SUP_REFS_$_2" can't be undefined in a subtraction expression
+o{standard input}:462:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_16" minus "L00000000004$pb"
+o{standard input}:462:symbol: "L_OBJC_SELECTOR_REFERENCES_16" can't be undefined in a subtraction expression
+o{standard input}:431:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_15" minus "L00000000003$pb"
+o{standard input}:431:symbol: "L_OBJC_SELECTOR_REFERENCES_15" can't be undefined in a subtraction expression
+o{standard input}:426:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_SUP_REFS_$_2" minus "L00000000003$pb"
+o{standard input}:426:symbol: "L_OBJC_CLASSLIST_SUP_REFS_$_2" can't be undefined in a subtraction expression
+o{standard input}:418:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_14" minus "L00000000003$pb"
+o{standard input}:418:symbol: "L_OBJC_SELECTOR_REFERENCES_14" can't be undefined in a subtraction expression
+o{standard input}:388:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_13" minus "L00000000002$pb"
+o{standard input}:388:symbol: "L_OBJC_SELECTOR_REFERENCES_13" can't be undefined in a subtraction expression
+o{standard input}:384:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_SUP_REFS_$_2" minus "L00000000002$pb"
+o{standard input}:384:symbol: "L_OBJC_CLASSLIST_SUP_REFS_$_2" can't be undefined in a subtraction expression
+o{standard input}:376:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_4" minus "L00000000002$pb"
+o{standard input}:376:symbol: "L_OBJC_SELECTOR_REFERENCES_4" can't be undefined in a subtraction expression
+o{standard input}:370:non-relocatable subtraction expression, "L_OBJC_IVAR_$_PDKEngineViewController.context$non_lazy_ptr" minus "L00000000002$pb"
+o{standard input}:370:symbol: "L_OBJC_IVAR_$_PDKEngineViewController.context$non_lazy_ptr" can't be undefined in a subtraction expression
+o{standard input}:361:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_2" minus "L00000000002$pb"
+o{standard input}:361:symbol: "L_OBJC_SELECTOR_REFERENCES_2" can't be undefined in a subtraction expression
+o{standard input}:358:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_REFERENCES_$_0" minus "L00000000002$pb"
+o{standard input}:358:symbol: "L_OBJC_CLASSLIST_REFERENCES_$_0" can't be undefined in a subtraction expression
+o{standard input}:350:non-relocatable subtraction expression, "L_OBJC_IVAR_$_PDKEngineViewController.context$non_lazy_ptr" minus "L00000000002$pb"
+o{standard input}:350:symbol: "L_OBJC_IVAR_$_PDKEngineViewController.context$non_lazy_ptr" can't be undefined in a subtraction expression
+o{standard input}:343:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_12" minus "L00000000002$pb"
+o{standard input}:343:symbol: "L_OBJC_SELECTOR_REFERENCES_12" can't be undefined in a subtraction expression
+o{standard input}:340:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_REFERENCES_$_0" minus "L00000000002$pb"
+o{standard input}:340:symbol: "L_OBJC_CLASSLIST_REFERENCES_$_0" can't be undefined in a subtraction expression
+o{standard input}:333:non-relocatable subtraction expression, "L_OBJC_IVAR_$_PDKEngineViewController.program$non_lazy_ptr" minus "L00000000002$pb"
+o{standard input}:333:symbol: "L_OBJC_IVAR_$_PDKEngineViewController.program$non_lazy_ptr" can't be undefined in a subtraction expression
+o{standard input}:324:non-relocatable subtraction expression, "L_OBJC_IVAR_$_PDKEngineViewController.program$non_lazy_ptr" minus "L00000000002$pb"
+o{standard input}:324:symbol: "L_OBJC_IVAR_$_PDKEngineViewController.program$non_lazy_ptr" can't be undefined in a subtraction expression
+o{standard input}:315:non-relocatable subtraction expression, "L_OBJC_IVAR_$_PDKEngineViewController.program$non_lazy_ptr" minus "L00000000002$pb"
+o{standard input}:315:symbol: "L_OBJC_IVAR_$_PDKEngineViewController.program$non_lazy_ptr" can't be undefined in a subtraction expression
+o{standard input}:286:non-relocatable subtraction expression, "L_OBJC_IVAR_$_PDKEngineViewController.displayLinkSupported$non_lazy_ptr" minus "L00000000001$pb"
+o{standard input}:286:symbol: "L_OBJC_IVAR_$_PDKEngineViewController.displayLinkSupported$non_lazy_ptr" can't be undefined in a subtraction expression
+o{standard input}:274:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_10" minus "L00000000001$pb"
+o{standard input}:274:symbol: "L_OBJC_SELECTOR_REFERENCES_10" can't be undefined in a subtraction expression
+o{standard input}:266:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_9" minus "L00000000001$pb"
+o{standard input}:266:symbol: "L_OBJC_SELECTOR_REFERENCES_9" can't be undefined in a subtraction expression
+o{standard input}:260:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_8" minus "L00000000001$pb"
+o{standard input}:260:symbol: "L_OBJC_SELECTOR_REFERENCES_8" can't be undefined in a subtraction expression
+o{standard input}:257:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_REFERENCES_$_1" minus "L00000000001$pb"
+o{standard input}:257:symbol: "L_OBJC_CLASSLIST_REFERENCES_$_1" can't be undefined in a subtraction expression
+o{standard input}:248:non-relocatable subtraction expression, "L_OBJC_IVAR_$_PDKEngineViewController.animationTimer$non_lazy_ptr" minus "L00000000001$pb"
+o{standard input}:248:symbol: "L_OBJC_IVAR_$_PDKEngineViewController.animationTimer$non_lazy_ptr" can't be undefined in a subtraction expression
+o{standard input}:241:non-relocatable subtraction expression, "L_OBJC_IVAR_$_PDKEngineViewController.displayLink$non_lazy_ptr" minus "L00000000001$pb"
+o{standard input}:241:symbol: "L_OBJC_IVAR_$_PDKEngineViewController.displayLink$non_lazy_ptr" can't be undefined in a subtraction expression
+o{standard input}:234:non-relocatable subtraction expression, "L_OBJC_IVAR_$_PDKEngineViewController.animationFrameInterval$non_lazy_ptr" minus "L00000000001$pb"
+o{standard input}:234:symbol: "L_OBJC_IVAR_$_PDKEngineViewController.animationFrameInterval$non_lazy_ptr" can't be undefined in a subtraction expression
+o{standard input}:227:non-relocatable subtraction expression, "L_OBJC_IVAR_$_PDKEngineViewController.displayLinkSupported$non_lazy_ptr" minus "L00000000001$pb"
+o{standard input}:227:symbol: "L_OBJC_IVAR_$_PDKEngineViewController.displayLinkSupported$non_lazy_ptr" can't be undefined in a subtraction expression
+o{standard input}:220:non-relocatable subtraction expression, "L_OBJC_IVAR_$_PDKEngineViewController.animating$non_lazy_ptr" minus "L00000000001$pb"
+o{standard input}:220:symbol: "L_OBJC_IVAR_$_PDKEngineViewController.animating$non_lazy_ptr" can't be undefined in a subtraction expression
+o{standard input}:212:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_7" minus "L00000000001$pb"
+o{standard input}:212:symbol: "L_OBJC_SELECTOR_REFERENCES_7" can't be undefined in a subtraction expression
+o{standard input}:203:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_6" minus "L00000000001$pb"
+o{standard input}:203:symbol: "L_OBJC_SELECTOR_REFERENCES_6" can't be undefined in a subtraction expression
+o{standard input}:197:non-relocatable subtraction expression, "L_OBJC_IVAR_$_PDKEngineViewController.context$non_lazy_ptr" minus "L00000000001$pb"
+o{standard input}:197:symbol: "L_OBJC_IVAR_$_PDKEngineViewController.context$non_lazy_ptr" can't be undefined in a subtraction expression
+o{standard input}:190:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_5" minus "L00000000001$pb"
+o{standard input}:190:symbol: "L_OBJC_SELECTOR_REFERENCES_5" can't be undefined in a subtraction expression
+o{standard input}:184:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_11" minus "L00000000001$pb"
+o{standard input}:184:symbol: "L_OBJC_SELECTOR_REFERENCES_11" can't be undefined in a subtraction expression
+o{standard input}:176:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_3" minus "L00000000001$pb"
+o{standard input}:176:symbol: "L_OBJC_SELECTOR_REFERENCES_3" can't be undefined in a subtraction expression
+o{standard input}:171:non-relocatable subtraction expression, "L_OBJC_IVAR_$_PDKEngineViewController.context$non_lazy_ptr" minus "L00000000001$pb"
+o{standard input}:171:symbol: "L_OBJC_IVAR_$_PDKEngineViewController.context$non_lazy_ptr" can't be undefined in a subtraction expression
+o{standard input}:164:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_11" minus "L00000000001$pb"
+o{standard input}:164:symbol: "L_OBJC_SELECTOR_REFERENCES_11" can't be undefined in a subtraction expression
+o{standard input}:157:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_4" minus "L00000000001$pb"
+o{standard input}:157:symbol: "L_OBJC_SELECTOR_REFERENCES_4" can't be undefined in a subtraction expression
+o{standard input}:148:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_3" minus "L00000000001$pb"
+o{standard input}:148:symbol: "L_OBJC_SELECTOR_REFERENCES_3" can't be undefined in a subtraction expression
+o{standard input}:132:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_2" minus "L00000000001$pb"
+o{standard input}:132:symbol: "L_OBJC_SELECTOR_REFERENCES_2" can't be undefined in a subtraction expression
+o{standard input}:129:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_REFERENCES_$_0" minus "L00000000001$pb"
+o{standard input}:129:symbol: "L_OBJC_CLASSLIST_REFERENCES_$_0" can't be undefined in a subtraction expression
+o{standard input}:111:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_1" minus "L00000000001$pb"
+o{standard input}:111:symbol: "L_OBJC_SELECTOR_REFERENCES_1" can't be undefined in a subtraction expression
+o{standard input}:105:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_0" minus "L00000000001$pb"
+o{standard input}:105:symbol: "L_OBJC_SELECTOR_REFERENCES_0" can't be undefined in a subtraction expression
+o{standard input}:102:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_REFERENCES_$_0" minus "L00000000001$pb"
+o{standard input}:102:symbol: "L_OBJC_CLASSLIST_REFERENCES_$_0" can't be undefined in a subtraction expression
+o{standard input}:91:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_1" minus "L00000000001$pb"
+o{standard input}:91:symbol: "L_OBJC_SELECTOR_REFERENCES_1" can't be undefined in a subtraction expression
+o{standard input}:85:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_0" minus "L00000000001$pb"
+o{standard input}:85:symbol: "L_OBJC_SELECTOR_REFERENCES_0" can't be undefined in a subtraction expression
+o{standard input}:82:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_REFERENCES_$_0" minus "L00000000001$pb"
+o{standard input}:82:symbol: "L_OBJC_CLASSLIST_REFERENCES_$_0" can't be undefined in a subtraction expression
+o{standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_REFERENCES_$_0
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_0
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_1
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_2
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_3
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_4
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_11
+o{standard input}:unknown:Undefined local symbol L_OBJC_IVAR_$_PDKEngineViewController.context$non_lazy_ptr
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_5
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_6
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_7
+o{standard input}:unknown:Undefined local symbol L_OBJC_IVAR_$_PDKEngineViewController.animating$non_lazy_ptr
+o{standard input}:unknown:Undefined local symbol L_OBJC_IVAR_$_PDKEngineViewController.displayLinkSupported$non_lazy_ptr
+o{standard input}:unknown:Undefined local symbol L_OBJC_IVAR_$_PDKEngineViewController.animationFrameInterval$non_lazy_ptr
+o{standard input}:unknown:Undefined local symbol L_OBJC_IVAR_$_PDKEngineViewController.displayLink$non_lazy_ptr
+o{standard input}:unknown:Undefined local symbol L_OBJC_IVAR_$_PDKEngineViewController.animationTimer$non_lazy_ptr
+o{standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_REFERENCES_$_1
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_8
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_9
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_10
+o{standard input}:unknown:Undefined local symbol L_OBJC_IVAR_$_PDKEngineViewController.program$non_lazy_ptr
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_12
+o{standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_SUP_REFS_$_2
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_13
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_14
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_15
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_16
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_17
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_18
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_19
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_20
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_21
+o{standard input}:unknown:Undefined local symbol L_NSDefaultRunLoopMode$non_lazy_ptr
+o{standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_REFERENCES_$_3
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_22
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_23
+o{standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_REFERENCES_$_4
+o{standard input}:unknown:Undefined local symbol LC8
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_24
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_25
+lSLF07#2@79"Compile /Users/spencerwhyte/Desktop/PDKEngine/Classes/PDKEngineViewController.m313144035#313144035#0(27037"/Users/spencerwhyte/Desktop/PDKEngine/Classes/PDKEngineViewController.m: In function '-[PDKEngineViewController drawFrame]':/Users/spencerwhyte/Desktop/PDKEngine/Classes/PDKEngineViewController.m:200: error: 'transY' undeclared (first use in this function)/Users/spencerwhyte/Desktop/PDKEngine/Classes/PDKEngineViewController.m:200: error: (Each undeclared identifier is reported only once/Users/spencerwhyte/Desktop/PDKEngine/Classes/PDKEngineViewController.m:200: error: for each function it appears in.)/Users/spencerwhyte/Desktop/PDKEngine/Classes/PDKEngineViewController.m:204: error: 'squareVertices' undeclared (first use in this function)/Users/spencerwhyte/Desktop/PDKEngine/Classes/PDKEngineViewController.m:206: error: 'squareColors' undeclared (first use in this function){standard input}:911:non-relocatable subtraction expression, "L_OBJC_IVAR_$_PDKEngineViewController.animating$non_lazy_ptr" minus "L00000000009$pb"{standard input}:911:symbol: "L_OBJC_IVAR_$_PDKEngineViewController.animating$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:903:non-relocatable subtraction expression, "L_OBJC_IVAR_$_PDKEngineViewController.animationTimer$non_lazy_ptr" minus "L00000000009$pb"{standard input}:903:symbol: "L_OBJC_IVAR_$_PDKEngineViewController.animationTimer$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:896:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_25" minus "L00000000009$pb"{standard input}:896:symbol: "L_OBJC_SELECTOR_REFERENCES_25" can't be undefined in a subtraction expression{standard input}:890:non-relocatable subtraction expression, "L_OBJC_IVAR_$_PDKEngineViewController.animationTimer$non_lazy_ptr" minus "L00000000009$pb"{standard input}:890:symbol: "L_OBJC_IVAR_$_PDKEngineViewController.animationTimer$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:881:non-relocatable subtraction expression, "L_OBJC_IVAR_$_PDKEngineViewController.displayLink$non_lazy_ptr" minus "L00000000009$pb"{standard input}:881:symbol: "L_OBJC_IVAR_$_PDKEngineViewController.displayLink$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:874:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_25" minus "L00000000009$pb"{standard input}:874:symbol: "L_OBJC_SELECTOR_REFERENCES_25" can't be undefined in a subtraction expression{standard input}:869:non-relocatable subtraction expression, "L_OBJC_IVAR_$_PDKEngineViewController.displayLink$non_lazy_ptr" minus "L00000000009$pb"{standard input}:869:symbol: "L_OBJC_IVAR_$_PDKEngineViewController.displayLink$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:860:non-relocatable subtraction expression, "L_OBJC_IVAR_$_PDKEngineViewController.displayLinkSupported$non_lazy_ptr" minus "L00000000009$pb"{standard input}:860:symbol: "L_OBJC_IVAR_$_PDKEngineViewController.displayLinkSupported$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:851:non-relocatable subtraction expression, "L_OBJC_IVAR_$_PDKEngineViewController.animating$non_lazy_ptr" minus "L00000000009$pb"{standard input}:851:symbol: "L_OBJC_IVAR_$_PDKEngineViewController.animating$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:820:non-relocatable subtraction expression, "L_OBJC_IVAR_$_PDKEngineViewController.animating$non_lazy_ptr" minus "L00000000008$pb"{standard input}:820:symbol: "L_OBJC_IVAR_$_PDKEngineViewController.animating$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:805:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_24" minus "L00000000008$pb"{standard input}:805:symbol: "L_OBJC_SELECTOR_REFERENCES_24" can't be undefined in a subtraction expression{standard input}:802:non-relocatable subtraction expression, "LC8" minus "L00000000008$pb"{standard input}:802:symbol: "LC8" can't be undefined in a subtraction expression{standard input}:796:non-relocatable subtraction expression, "L_OBJC_IVAR_$_PDKEngineViewController.animationFrameInterval$non_lazy_ptr" minus "L00000000008$pb"{standard input}:796:symbol: "L_OBJC_IVAR_$_PDKEngineViewController.animationFrameInterval$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:791:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_19" minus "L00000000008$pb"{standard input}:791:symbol: "L_OBJC_SELECTOR_REFERENCES_19" can't be undefined in a subtraction expression{standard input}:788:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_REFERENCES_$_4" minus "L00000000008$pb"{standard input}:788:symbol: "L_OBJC_CLASSLIST_REFERENCES_$_4" can't be undefined in a subtraction expression{standard input}:783:non-relocatable subtraction expression, "L_OBJC_IVAR_$_PDKEngineViewController.animationTimer$non_lazy_ptr" minus "L00000000008$pb"{standard input}:783:symbol: "L_OBJC_IVAR_$_PDKEngineViewController.animationTimer$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:772:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_23" minus "L00000000008$pb"{standard input}:772:symbol: "L_OBJC_SELECTOR_REFERENCES_23" can't be undefined in a subtraction expression{standard input}:766:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_22" minus "L00000000008$pb"{standard input}:766:symbol: "L_OBJC_SELECTOR_REFERENCES_22" can't be undefined in a subtraction expression{standard input}:763:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_REFERENCES_$_3" minus "L00000000008$pb"{standard input}:763:symbol: "L_OBJC_CLASSLIST_REFERENCES_$_3" can't be undefined in a subtraction expression{standard input}:760:non-relocatable subtraction expression, "L_NSDefaultRunLoopMode$non_lazy_ptr" minus "L00000000008$pb"{standard input}:760:symbol: "L_NSDefaultRunLoopMode$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:755:non-relocatable subtraction expression, "L_OBJC_IVAR_$_PDKEngineViewController.displayLink$non_lazy_ptr" minus "L00000000008$pb"{standard input}:755:symbol: "L_OBJC_IVAR_$_PDKEngineViewController.displayLink$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:747:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_21" minus "L00000000008$pb"{standard input}:747:symbol: "L_OBJC_SELECTOR_REFERENCES_21" can't be undefined in a subtraction expression{standard input}:742:non-relocatable subtraction expression, "L_OBJC_IVAR_$_PDKEngineViewController.animationFrameInterval$non_lazy_ptr" minus "L00000000008$pb"{standard input}:742:symbol: "L_OBJC_IVAR_$_PDKEngineViewController.animationFrameInterval$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:736:non-relocatable subtraction expression, "L_OBJC_IVAR_$_PDKEngineViewController.displayLink$non_lazy_ptr" minus "L00000000008$pb"{standard input}:736:symbol: "L_OBJC_IVAR_$_PDKEngineViewController.displayLink$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:726:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_20" minus "L00000000008$pb"{standard input}:726:symbol: "L_OBJC_SELECTOR_REFERENCES_20" can't be undefined in a subtraction expression{standard input}:723:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_19" minus "L00000000008$pb"{standard input}:723:symbol: "L_OBJC_SELECTOR_REFERENCES_19" can't be undefined in a subtraction expression{standard input}:714:non-relocatable subtraction expression, "L_OBJC_IVAR_$_PDKEngineViewController.displayLink$non_lazy_ptr" minus "L00000000008$pb"{standard input}:714:symbol: "L_OBJC_IVAR_$_PDKEngineViewController.displayLink$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:705:non-relocatable subtraction expression, "L_OBJC_IVAR_$_PDKEngineViewController.displayLinkSupported$non_lazy_ptr" minus "L00000000008$pb"{standard input}:705:symbol: "L_OBJC_IVAR_$_PDKEngineViewController.displayLinkSupported$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:696:non-relocatable subtraction expression, "L_OBJC_IVAR_$_PDKEngineViewController.animating$non_lazy_ptr" minus "L00000000008$pb"{standard input}:696:symbol: "L_OBJC_IVAR_$_PDKEngineViewController.animating$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:652:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_14" minus "L00000000007$pb"{standard input}:652:symbol: "L_OBJC_SELECTOR_REFERENCES_14" can't be undefined in a subtraction expression{standard input}:645:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_16" minus "L00000000007$pb"{standard input}:645:symbol: "L_OBJC_SELECTOR_REFERENCES_16" can't be undefined in a subtraction expression{standard input}:636:non-relocatable subtraction expression, "L_OBJC_IVAR_$_PDKEngineViewController.animating$non_lazy_ptr" minus "L00000000007$pb"{standard input}:636:symbol: "L_OBJC_IVAR_$_PDKEngineViewController.animating$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:627:non-relocatable subtraction expression, "L_OBJC_IVAR_$_PDKEngineViewController.animationFrameInterval$non_lazy_ptr" minus "L00000000007$pb"{standard input}:627:symbol: "L_OBJC_IVAR_$_PDKEngineViewController.animationFrameInterval$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:598:non-relocatable subtraction expression, "L_OBJC_IVAR_$_PDKEngineViewController.animationFrameInterval$non_lazy_ptr" minus "L00000000006$pb"{standard input}:598:symbol: "L_OBJC_IVAR_$_PDKEngineViewController.animationFrameInterval$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:571:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_3" minus "L00000000005$pb"{standard input}:571:symbol: "L_OBJC_SELECTOR_REFERENCES_3" can't be undefined in a subtraction expression{standard input}:562:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_2" minus "L00000000005$pb"{standard input}:562:symbol: "L_OBJC_SELECTOR_REFERENCES_2" can't be undefined in a subtraction expression{standard input}:559:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_REFERENCES_$_0" minus "L00000000005$pb"{standard input}:559:symbol: "L_OBJC_CLASSLIST_REFERENCES_$_0" can't be undefined in a subtraction expression{standard input}:551:non-relocatable subtraction expression, "L_OBJC_IVAR_$_PDKEngineViewController.context$non_lazy_ptr" minus "L00000000005$pb"{standard input}:551:symbol: "L_OBJC_IVAR_$_PDKEngineViewController.context$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:544:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_12" minus "L00000000005$pb"{standard input}:544:symbol: "L_OBJC_SELECTOR_REFERENCES_12" can't be undefined in a subtraction expression{standard input}:541:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_REFERENCES_$_0" minus "L00000000005$pb"{standard input}:541:symbol: "L_OBJC_CLASSLIST_REFERENCES_$_0" can't be undefined in a subtraction expression{standard input}:534:non-relocatable subtraction expression, "L_OBJC_IVAR_$_PDKEngineViewController.program$non_lazy_ptr" minus "L00000000005$pb"{standard input}:534:symbol: "L_OBJC_IVAR_$_PDKEngineViewController.program$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:525:non-relocatable subtraction expression, "L_OBJC_IVAR_$_PDKEngineViewController.program$non_lazy_ptr" minus "L00000000005$pb"{standard input}:525:symbol: "L_OBJC_IVAR_$_PDKEngineViewController.program$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:516:non-relocatable subtraction expression, "L_OBJC_IVAR_$_PDKEngineViewController.program$non_lazy_ptr" minus "L00000000005$pb"{standard input}:516:symbol: "L_OBJC_IVAR_$_PDKEngineViewController.program$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:509:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_18" minus "L00000000005$pb"{standard input}:509:symbol: "L_OBJC_SELECTOR_REFERENCES_18" can't be undefined in a subtraction expression{standard input}:505:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_SUP_REFS_$_2" minus "L00000000005$pb"{standard input}:505:symbol: "L_OBJC_CLASSLIST_SUP_REFS_$_2" can't be undefined in a subtraction expression{standard input}:475:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_17" minus "L00000000004$pb"{standard input}:475:symbol: "L_OBJC_SELECTOR_REFERENCES_17" can't be undefined in a subtraction expression{standard input}:470:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_SUP_REFS_$_2" minus "L00000000004$pb"{standard input}:470:symbol: "L_OBJC_CLASSLIST_SUP_REFS_$_2" can't be undefined in a subtraction expression{standard input}:462:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_16" minus "L00000000004$pb"{standard input}:462:symbol: "L_OBJC_SELECTOR_REFERENCES_16" can't be undefined in a subtraction expression{standard input}:431:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_15" minus "L00000000003$pb"{standard input}:431:symbol: "L_OBJC_SELECTOR_REFERENCES_15" can't be undefined in a subtraction expression{standard input}:426:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_SUP_REFS_$_2" minus "L00000000003$pb"{standard input}:426:symbol: "L_OBJC_CLASSLIST_SUP_REFS_$_2" can't be undefined in a subtraction expression{standard input}:418:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_14" minus "L00000000003$pb"{standard input}:418:symbol: "L_OBJC_SELECTOR_REFERENCES_14" can't be undefined in a subtraction expression{standard input}:388:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_13" minus "L00000000002$pb"{standard input}:388:symbol: "L_OBJC_SELECTOR_REFERENCES_13" can't be undefined in a subtraction expression{standard input}:384:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_SUP_REFS_$_2" minus "L00000000002$pb"{standard input}:384:symbol: "L_OBJC_CLASSLIST_SUP_REFS_$_2" can't be undefined in a subtraction expression{standard input}:376:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_4" minus "L00000000002$pb"{standard input}:376:symbol: "L_OBJC_SELECTOR_REFERENCES_4" can't be undefined in a subtraction expression{standard input}:370:non-relocatable subtraction expression, "L_OBJC_IVAR_$_PDKEngineViewController.context$non_lazy_ptr" minus "L00000000002$pb"{standard input}:370:symbol: "L_OBJC_IVAR_$_PDKEngineViewController.context$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:361:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_2" minus "L00000000002$pb"{standard input}:361:symbol: "L_OBJC_SELECTOR_REFERENCES_2" can't be undefined in a subtraction expression{standard input}:358:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_REFERENCES_$_0" minus "L00000000002$pb"{standard input}:358:symbol: "L_OBJC_CLASSLIST_REFERENCES_$_0" can't be undefined in a subtraction expression{standard input}:350:non-relocatable subtraction expression, "L_OBJC_IVAR_$_PDKEngineViewController.context$non_lazy_ptr" minus "L00000000002$pb"{standard input}:350:symbol: "L_OBJC_IVAR_$_PDKEngineViewController.context$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:343:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_12" minus "L00000000002$pb"{standard input}:343:symbol: "L_OBJC_SELECTOR_REFERENCES_12" can't be undefined in a subtraction expression{standard input}:340:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_REFERENCES_$_0" minus "L00000000002$pb"{standard input}:340:symbol: "L_OBJC_CLASSLIST_REFERENCES_$_0" can't be undefined in a subtraction expression{standard input}:333:non-relocatable subtraction expression, "L_OBJC_IVAR_$_PDKEngineViewController.program$non_lazy_ptr" minus "L00000000002$pb"{standard input}:333:symbol: "L_OBJC_IVAR_$_PDKEngineViewController.program$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:324:non-relocatable subtraction expression, "L_OBJC_IVAR_$_PDKEngineViewController.program$non_lazy_ptr" minus "L00000000002$pb"{standard input}:324:symbol: "L_OBJC_IVAR_$_PDKEngineViewController.program$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:315:non-relocatable subtraction expression, "L_OBJC_IVAR_$_PDKEngineViewController.program$non_lazy_ptr" minus "L00000000002$pb"{standard input}:315:symbol: "L_OBJC_IVAR_$_PDKEngineViewController.program$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:286:non-relocatable subtraction expression, "L_OBJC_IVAR_$_PDKEngineViewController.displayLinkSupported$non_lazy_ptr" minus "L00000000001$pb"{standard input}:286:symbol: "L_OBJC_IVAR_$_PDKEngineViewController.displayLinkSupported$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:274:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_10" minus "L00000000001$pb"{standard input}:274:symbol: "L_OBJC_SELECTOR_REFERENCES_10" can't be undefined in a subtraction expression{standard input}:266:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_9" minus "L00000000001$pb"{standard input}:266:symbol: "L_OBJC_SELECTOR_REFERENCES_9" can't be undefined in a subtraction expression{standard input}:260:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_8" minus "L00000000001$pb"{standard input}:260:symbol: "L_OBJC_SELECTOR_REFERENCES_8" can't be undefined in a subtraction expression{standard input}:257:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_REFERENCES_$_1" minus "L00000000001$pb"{standard input}:257:symbol: "L_OBJC_CLASSLIST_REFERENCES_$_1" can't be undefined in a subtraction expression{standard input}:248:non-relocatable subtraction expression, "L_OBJC_IVAR_$_PDKEngineViewController.animationTimer$non_lazy_ptr" minus "L00000000001$pb"{standard input}:248:symbol: "L_OBJC_IVAR_$_PDKEngineViewController.animationTimer$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:241:non-relocatable subtraction expression, "L_OBJC_IVAR_$_PDKEngineViewController.displayLink$non_lazy_ptr" minus "L00000000001$pb"{standard input}:241:symbol: "L_OBJC_IVAR_$_PDKEngineViewController.displayLink$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:234:non-relocatable subtraction expression, "L_OBJC_IVAR_$_PDKEngineViewController.animationFrameInterval$non_lazy_ptr" minus "L00000000001$pb"{standard input}:234:symbol: "L_OBJC_IVAR_$_PDKEngineViewController.animationFrameInterval$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:227:non-relocatable subtraction expression, "L_OBJC_IVAR_$_PDKEngineViewController.displayLinkSupported$non_lazy_ptr" minus "L00000000001$pb"{standard input}:227:symbol: "L_OBJC_IVAR_$_PDKEngineViewController.displayLinkSupported$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:220:non-relocatable subtraction expression, "L_OBJC_IVAR_$_PDKEngineViewController.animating$non_lazy_ptr" minus "L00000000001$pb"{standard input}:220:symbol: "L_OBJC_IVAR_$_PDKEngineViewController.animating$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:212:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_7" minus "L00000000001$pb"{standard input}:212:symbol: "L_OBJC_SELECTOR_REFERENCES_7" can't be undefined in a subtraction expression{standard input}:203:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_6" minus "L00000000001$pb"{standard input}:203:symbol: "L_OBJC_SELECTOR_REFERENCES_6" can't be undefined in a subtraction expression{standard input}:197:non-relocatable subtraction expression, "L_OBJC_IVAR_$_PDKEngineViewController.context$non_lazy_ptr" minus "L00000000001$pb"{standard input}:197:symbol: "L_OBJC_IVAR_$_PDKEngineViewController.context$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:190:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_5" minus "L00000000001$pb"{standard input}:190:symbol: "L_OBJC_SELECTOR_REFERENCES_5" can't be undefined in a subtraction expression{standard input}:184:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_11" minus "L00000000001$pb"{standard input}:184:symbol: "L_OBJC_SELECTOR_REFERENCES_11" can't be undefined in a subtraction expression{standard input}:176:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_3" minus "L00000000001$pb"{standard input}:176:symbol: "L_OBJC_SELECTOR_REFERENCES_3" can't be undefined in a subtraction expression{standard input}:171:non-relocatable subtraction expression, "L_OBJC_IVAR_$_PDKEngineViewController.context$non_lazy_ptr" minus "L00000000001$pb"{standard input}:171:symbol: "L_OBJC_IVAR_$_PDKEngineViewController.context$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:164:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_11" minus "L00000000001$pb"{standard input}:164:symbol: "L_OBJC_SELECTOR_REFERENCES_11" can't be undefined in a subtraction expression{standard input}:157:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_4" minus "L00000000001$pb"{standard input}:157:symbol: "L_OBJC_SELECTOR_REFERENCES_4" can't be undefined in a subtraction expression{standard input}:148:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_3" minus "L00000000001$pb"{standard input}:148:symbol: "L_OBJC_SELECTOR_REFERENCES_3" can't be undefined in a subtraction expression{standard input}:132:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_2" minus "L00000000001$pb"{standard input}:132:symbol: "L_OBJC_SELECTOR_REFERENCES_2" can't be undefined in a subtraction expression{standard input}:129:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_REFERENCES_$_0" minus "L00000000001$pb"{standard input}:129:symbol: "L_OBJC_CLASSLIST_REFERENCES_$_0" can't be undefined in a subtraction expression{standard input}:111:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_1" minus "L00000000001$pb"{standard input}:111:symbol: "L_OBJC_SELECTOR_REFERENCES_1" can't be undefined in a subtraction expression{standard input}:105:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_0" minus "L00000000001$pb"{standard input}:105:symbol: "L_OBJC_SELECTOR_REFERENCES_0" can't be undefined in a subtraction expression{standard input}:102:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_REFERENCES_$_0" minus "L00000000001$pb"{standard input}:102:symbol: "L_OBJC_CLASSLIST_REFERENCES_$_0" can't be undefined in a subtraction expression{standard input}:91:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_1" minus "L00000000001$pb"{standard input}:91:symbol: "L_OBJC_SELECTOR_REFERENCES_1" can't be undefined in a subtraction expression{standard input}:85:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_0" minus "L00000000001$pb"{standard input}:85:symbol: "L_OBJC_SELECTOR_REFERENCES_0" can't be undefined in a subtraction expression{standard input}:82:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_REFERENCES_$_0" minus "L00000000001$pb"{standard input}:82:symbol: "L_OBJC_CLASSLIST_REFERENCES_$_0" can't be undefined in a subtraction expression{standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_REFERENCES_$_0{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_0{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_1{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_2{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_3{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_4{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_11{standard input}:unknown:Undefined local symbol L_OBJC_IVAR_$_PDKEngineViewController.context$non_lazy_ptr{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_5{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_6{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_7{standard input}:unknown:Undefined local symbol L_OBJC_IVAR_$_PDKEngineViewController.animating$non_lazy_ptr{standard input}:unknown:Undefined local symbol L_OBJC_IVAR_$_PDKEngineViewController.displayLinkSupported$non_lazy_ptr{standard input}:unknown:Undefined local symbol L_OBJC_IVAR_$_PDKEngineViewController.animationFrameInterval$non_lazy_ptr{standard input}:unknown:Undefined local symbol L_OBJC_IVAR_$_PDKEngineViewController.displayLink$non_lazy_ptr{standard input}:unknown:Undefined local symbol L_OBJC_IVAR_$_PDKEngineViewController.animationTimer$non_lazy_ptr{standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_REFERENCES_$_1{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_8{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_9{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_10{standard input}:unknown:Undefined local symbol L_OBJC_IVAR_$_PDKEngineViewController.program$non_lazy_ptr{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_12{standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_SUP_REFS_$_2{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_13{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_14{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_15{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_16{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_17{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_18{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_19{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_20{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_21{standard input}:unknown:Undefined local symbol L_NSDefaultRunLoopMode$non_lazy_ptr{standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_REFERENCES_$_3{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_22{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_23{standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_REFERENCES_$_4{standard input}:unknown:Undefined local symbol LC8{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_24{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_253(4@48"'transY' undeclared (first use in this function)313144035#125#133#0(6@71"/Users/spencerwhyte/Desktop/PDKEngine/Classes/PDKEngineViewController.m313144021#200#0#200#0#43"'*' undeclared (first use in this function)0(4@56"'squareVertices' undeclared (first use in this function)313144035#510#141#0(6@71"/Users/spencerwhyte/Desktop/PDKEngine/Classes/PDKEngineViewController.m313144021#204#0#204#0#43"'*' undeclared (first use in this function)0(4@54"'squareColors' undeclared (first use in this function)313144035#651#139#0(6@71"/Users/spencerwhyte/Desktop/PDKEngine/Classes/PDKEngineViewController.m313144021#206#0#206#0#43"'*' undeclared (first use in this function)0(0#0#71"/Users/spencerwhyte/Desktop/PDKEngine/Classes/PDKEngineViewController.m8627397024#1997"    cd /Users/spencerwhyte/Desktop/PDKEngine    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/spencerwhyte/Desktop/PDKEngine/build/PDKEngine.build/Debug-iphonesimulator/PDKEngine.build/PDKEngine-generated-files.hmap -I/Users/spencerwhyte/Desktop/PDKEngine/build/PDKEngine.build/Debug-iphonesimulator/PDKEngine.build/PDKEngine-own-target-headers.hmap -I/Users/spencerwhyte/Desktop/PDKEngine/build/PDKEngine.build/Debug-iphonesimulator/PDKEngine.build/PDKEngine-all-target-headers.hmap -iquote /Users/spencerwhyte/Desktop/PDKEngine/build/PDKEngine.build/Debug-iphonesimulator/PDKEngine.build/PDKEngine-project-headers.hmap -F/Users/spencerwhyte/Desktop/PDKEngine/build/Debug-iphonesimulator -I/Users/spencerwhyte/Desktop/PDKEngine/build/Debug-iphonesimulator/include -I/Users/spencerwhyte/Desktop/PDKEngine/build/PDKEngine.build/Debug-iphonesimulator/PDKEngine.build/DerivedSources/i386 -I/Users/spencerwhyte/Desktop/PDKEngine/build/PDKEngine.build/Debug-iphonesimulator/PDKEngine.build/DerivedSources -include /var/folders/t+/t+mDLEErH10OmrEqCleGzk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PDKEngine_Prefix-hjohbexketsvgddvibrkuvnplduh/PDKEngine_Prefix.pch -c /Users/spencerwhyte/Desktop/PDKEngine/Classes/PDKEngineViewController.m -o /Users/spencerwhyte/Desktop/PDKEngine/build/PDKEngine.build/Debug-iphonesimulator/PDKEngine.build/Objects-normal/i386/PDKEngineViewController.o1#
+
+CCompileC build/PDKEngine.build/Debug-iphonesimulator/PDKEngine.build/Objects-normal/i386/main.o /Users/spencerwhyte/Desktop/PDKEngine/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s313144035.546284
+e313144035.614259
+r1
+xCompileC
+xbuild/PDKEngine.build/Debug-iphonesimulator/PDKEngine.build/Objects-normal/i386/main.o
+x/Users/spencerwhyte/Desktop/PDKEngine/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@52"Compile /Users/spencerwhyte/Desktop/PDKEngine/main.m313144035#313144035#0(0"0(0#0#44"/Users/spencerwhyte/Desktop/PDKEngine/main.m8628322976#1951"    cd /Users/spencerwhyte/Desktop/PDKEngine    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/spencerwhyte/Desktop/PDKEngine/build/PDKEngine.build/Debug-iphonesimulator/PDKEngine.build/PDKEngine-generated-files.hmap -I/Users/spencerwhyte/Desktop/PDKEngine/build/PDKEngine.build/Debug-iphonesimulator/PDKEngine.build/PDKEngine-own-target-headers.hmap -I/Users/spencerwhyte/Desktop/PDKEngine/build/PDKEngine.build/Debug-iphonesimulator/PDKEngine.build/PDKEngine-all-target-headers.hmap -iquote /Users/spencerwhyte/Desktop/PDKEngine/build/PDKEngine.build/Debug-iphonesimulator/PDKEngine.build/PDKEngine-project-headers.hmap -F/Users/spencerwhyte/Desktop/PDKEngine/build/Debug-iphonesimulator -I/Users/spencerwhyte/Desktop/PDKEngine/build/Debug-iphonesimulator/include -I/Users/spencerwhyte/Desktop/PDKEngine/build/PDKEngine.build/Debug-iphonesimulator/PDKEngine.build/DerivedSources/i386 -I/Users/spencerwhyte/Desktop/PDKEngine/build/PDKEngine.build/Debug-iphonesimulator/PDKEngine.build/DerivedSources -include /var/folders/t+/t+mDLEErH10OmrEqCleGzk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PDKEngine_Prefix-hjohbexketsvgddvibrkuvnplduh/PDKEngine_Prefix.pch -c /Users/spencerwhyte/Desktop/PDKEngine/main.m -o /Users/spencerwhyte/Desktop/PDKEngine/build/PDKEngine.build/Debug-iphonesimulator/PDKEngine.build/Objects-normal/i386/main.o0#
+
+CCompileXIB /Users/spencerwhyte/Desktop/PDKEngine/Classes/../PDKEngineViewController.xib
+s313144033.935443
+e313144034.724784
+r1
+xCompileXIB
+x/Users/spencerwhyte/Desktop/PDKEngine/Classes/../PDKEngineViewController.xib
+lSLF07#2@49"CompileXIB Classes/../PDKEngineViewController.xib313144033#313144034#0(0"0(0#0#76"/Users/spencerwhyte/Desktop/PDKEngine/Classes/../PDKEngineViewController.xib8621546016#606"    cd /Users/spencerwhyte/Desktop/PDKEngine    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/spencerwhyte/Desktop/PDKEngine/build/Debug-iphonesimulator/PDKEngine.app/PDKEngineViewController.nib /Users/spencerwhyte/Desktop/PDKEngine/Classes/../PDKEngineViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk0#
+
+CCompileXIB /Users/spencerwhyte/Desktop/PDKEngine/MainWindow.xib
+s313144033.934722
+e313144034.724517
+r1
+xCompileXIB
+x/Users/spencerwhyte/Desktop/PDKEngine/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib313144033#313144034#0(0"0(0#0#52"/Users/spencerwhyte/Desktop/PDKEngine/MainWindow.xib8621901056#569"    cd /Users/spencerwhyte/Desktop/PDKEngine    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/spencerwhyte/Desktop/PDKEngine/build/Debug-iphonesimulator/PDKEngine.app/MainWindow.nib /Users/spencerwhyte/Desktop/PDKEngine/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk0#
+
+CCpResource build/Debug-iphonesimulator/PDKEngine.app/Shader.fsh Shaders/Shader.fsh
+s313144033.933551
+e313144033.968063
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/PDKEngine.app/Shader.fsh
+xShaders/Shader.fsh
+lSLF07#2@23"Copy Shaders/Shader.fsh313144033#313144033#0(0"0(0#0#56"/Users/spencerwhyte/Desktop/PDKEngine/Shaders/Shader.fsh8622556608#461"    cd /Users/spencerwhyte/Desktop/PDKEngine    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/spencerwhyte/Desktop/PDKEngine/Shaders/Shader.fsh /Users/spencerwhyte/Desktop/PDKEngine/build/Debug-iphonesimulator/PDKEngine.app0#
+
+CCpResource build/Debug-iphonesimulator/PDKEngine.app/Shader.vsh Shaders/Shader.vsh
+s313144033.934165
+e313144033.967827
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/PDKEngine.app/Shader.vsh
+xShaders/Shader.vsh
+lSLF07#2@23"Copy Shaders/Shader.vsh313144033#313144033#0(0"0(0#0#56"/Users/spencerwhyte/Desktop/PDKEngine/Shaders/Shader.vsh8622163104#461"    cd /Users/spencerwhyte/Desktop/PDKEngine    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/spencerwhyte/Desktop/PDKEngine/Shaders/Shader.vsh /Users/spencerwhyte/Desktop/PDKEngine/build/Debug-iphonesimulator/PDKEngine.app0#
+
+CGenerateDSYMFile /Users/spencerwhyte/Desktop/PDKEngine/build/Debug-iphonesimulator/PDKEngine.app.dSYM /Users/spencerwhyte/Desktop/PDKEngine/build/Debug-iphonesimulator/PDKEngine.app/PDKEngine
+r0
+
+CLd /Users/spencerwhyte/Desktop/PDKEngine/build/Debug-iphonesimulator/PDKEngine.app/PDKEngine normal i386
+r0
+
+CProcessInfoPlistFile /Users/spencerwhyte/Desktop/PDKEngine/build/Debug-iphonesimulator/PDKEngine.app/Info.plist PDKEngine-Info.plist
+s313144033.930080
+e313144033.933463
+r1
+xProcessInfoPlistFile
+x/Users/spencerwhyte/Desktop/PDKEngine/build/Debug-iphonesimulator/PDKEngine.app/Info.plist
+xPDKEngine-Info.plist
+lSLF07#2@28"Process PDKEngine-Info.plist313144033#313144033#0(0"0(0#0#58"/Users/spencerwhyte/Desktop/PDKEngine/PDKEngine-Info.plist8625628864#482"    cd /Users/spencerwhyte/Desktop/PDKEngine    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility PDKEngine-Info.plist -genpkginfo /Users/spencerwhyte/Desktop/PDKEngine/build/Debug-iphonesimulator/PDKEngine.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/spencerwhyte/Desktop/PDKEngine/build/Debug-iphonesimulator/PDKEngine.app/Info.plist0#
+
+CProcessPCH /var/folders/t+/t+mDLEErH10OmrEqCleGzk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PDKEngine_Prefix-hjohbexketsvgddvibrkuvnplduh/PDKEngine_Prefix.pch.gch PDKEngine_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s313144034.725004
+e313144035.545975
+r1
+xProcessPCH
+x/var/folders/t+/t+mDLEErH10OmrEqCleGzk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PDKEngine_Prefix-hjohbexketsvgddvibrkuvnplduh/PDKEngine_Prefix.pch.gch
+xPDKEngine_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@31"Precompile PDKEngine_Prefix.pch313144034#313144035#0(0"0(0#0#58"/Users/spencerwhyte/Desktop/PDKEngine/PDKEngine_Prefix.pch8618500256#1842"    cd /Users/spencerwhyte/Desktop/PDKEngine    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/spencerwhyte/Desktop/PDKEngine/build/PDKEngine.build/Debug-iphonesimulator/PDKEngine.build/PDKEngine-generated-files.hmap -I/Users/spencerwhyte/Desktop/PDKEngine/build/PDKEngine.build/Debug-iphonesimulator/PDKEngine.build/PDKEngine-own-target-headers.hmap -I/Users/spencerwhyte/Desktop/PDKEngine/build/PDKEngine.build/Debug-iphonesimulator/PDKEngine.build/PDKEngine-all-target-headers.hmap -iquote /Users/spencerwhyte/Desktop/PDKEngine/build/PDKEngine.build/Debug-iphonesimulator/PDKEngine.build/PDKEngine-project-headers.hmap -F/Users/spencerwhyte/Desktop/PDKEngine/build/Debug-iphonesimulator -I/Users/spencerwhyte/Desktop/PDKEngine/build/Debug-iphonesimulator/include -I/Users/spencerwhyte/Desktop/PDKEngine/build/PDKEngine.build/Debug-iphonesimulator/PDKEngine.build/DerivedSources/i386 -I/Users/spencerwhyte/Desktop/PDKEngine/build/PDKEngine.build/Debug-iphonesimulator/PDKEngine.build/DerivedSources -c /Users/spencerwhyte/Desktop/PDKEngine/PDKEngine_Prefix.pch -o /var/folders/t+/t+mDLEErH10OmrEqCleGzk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PDKEngine_Prefix-hjohbexketsvgddvibrkuvnplduh/PDKEngine_Prefix.pch.gch0#
+
+CTouch /Users/spencerwhyte/Desktop/PDKEngine/build/Debug-iphonesimulator/PDKEngine.app
+r0
+

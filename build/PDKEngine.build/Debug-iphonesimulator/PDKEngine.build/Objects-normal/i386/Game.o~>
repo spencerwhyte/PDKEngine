@@ -1,0 +1,9 @@
+In file included from /Users/spencerwhyte/Desktop/PDKEngine/Classes/Game.m:9:
+/Users/spencerwhyte/Desktop/PDKEngine/Classes/Game.h:9:24: error: Cocoa/Cocoa.h: No such file or directory
+In file included from /Users/spencerwhyte/Desktop/PDKEngine/Classes/Game.m:9:
+/Users/spencerwhyte/Desktop/PDKEngine/Classes/Game.h:13: error: statically allocated instance of Objective-C class 'Player'
+/Users/spencerwhyte/Desktop/PDKEngine/Classes/Game.m: In function '-[Game init]':
+/Users/spencerwhyte/Desktop/PDKEngine/Classes/Game.m:16: error: incompatible types in assignment
+/Users/spencerwhyte/Desktop/PDKEngine/Classes/Game.m: In function '-[Game getLocalPlayer]':
+/Users/spencerwhyte/Desktop/PDKEngine/Classes/Game.m:31: error: incompatible types in return
+/Users/spencerwhyte/Desktop/PDKEngine/Classes/Game.m:32: warning: control reaches end of non-void function

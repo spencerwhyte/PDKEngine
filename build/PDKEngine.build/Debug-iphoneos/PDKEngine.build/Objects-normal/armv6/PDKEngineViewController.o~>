@@ -1,0 +1,4 @@
+/Users/spencerwhyte/Desktop/PDKEngine/Classes/Networking.h:11: warning: 'netService' defined but not used
+/Users/spencerwhyte/Desktop/PDKEngine/Classes/Networking.h:12: warning: 'tbr' defined but not used
+/Users/spencerwhyte/Desktop/PDKEngine/Classes/ModeSelectorController.h:13: warning: 'defaultImageView' defined but not used
+/Users/spencerwhyte/Desktop/PDKEngine/Classes/GameLogic.h:12: warning: 'currentGame' defined but not used

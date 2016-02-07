@@ -1,0 +1,4 @@
+/Users/spencerwhyte/Desktop/PDKEngine/Classes/Networking.m: In function '+[Networking publishService]':
+/Users/spencerwhyte/Desktop/PDKEngine/Classes/Networking.m:138: warning: unused variable 'connectfd'
+/Users/spencerwhyte/Desktop/PDKEngine/Classes/Networking.m: At top level:
+/Users/spencerwhyte/Desktop/PDKEngine/Classes/GameLogic.h:12: warning: 'currentGame' defined but not used

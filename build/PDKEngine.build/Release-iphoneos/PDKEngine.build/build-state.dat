@@ -1,0 +1,918 @@
+TPDKEngine
+v7
+r0
+t315816133.616969
+cCheck dependencies
+cCpResource build/Release-iphoneos/PDKEngine.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/ResourceRules.plist
+cProcessInfoPlistFile /Users/spencerwhyte/Desktop/PDKEngine/build/Release-iphoneos/PDKEngine.app/Info.plist PDKEngine-Info.plist
+cCpResource build/Release-iphoneos/PDKEngine.app/Shader.fsh Shaders/Shader.fsh
+cCpResource build/Release-iphoneos/PDKEngine.app/Shader.vsh Shaders/Shader.vsh
+cCompileXIB /Users/spencerwhyte/Desktop/PDKEngine/MainWindow.xib
+cCompileXIB /Users/spencerwhyte/Desktop/PDKEngine/Classes/../PDKEngineViewController.xib
+cCopyPNGFile /Users/spencerwhyte/Desktop/PDKEngine/build/Release-iphoneos/PDKEngine.app/defaultImage.png defaultImage.png
+cCopyPNGFile /Users/spencerwhyte/Desktop/PDKEngine/build/Release-iphoneos/PDKEngine.app/Default.png Classes/Default.png
+cProcessPCH /var/folders/t+/t+mDLEErH10OmrEqCleGzk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PDKEngine_Prefix-bjmckpheloevhjbbcsqlfixiahzp/PDKEngine_Prefix.pch.gch PDKEngine_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+cProcessPCH /var/folders/t+/t+mDLEErH10OmrEqCleGzk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PDKEngine_Prefix-hiptotdyninjkkfommcfdwmkinyd/PDKEngine_Prefix.pch.gch PDKEngine_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/PDKEngine.build/Release-iphoneos/PDKEngine.build/Objects-normal/armv6/main.o /Users/spencerwhyte/Desktop/PDKEngine/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/PDKEngine.build/Release-iphoneos/PDKEngine.build/Objects-normal/armv6/PDKEngineAppDelegate.o /Users/spencerwhyte/Desktop/PDKEngine/Classes/PDKEngineAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/PDKEngine.build/Release-iphoneos/PDKEngine.build/Objects-normal/armv6/EAGLView.o /Users/spencerwhyte/Desktop/PDKEngine/Classes/EAGLView.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/PDKEngine.build/Release-iphoneos/PDKEngine.build/Objects-normal/armv6/PDKEngineViewController.o /Users/spencerwhyte/Desktop/PDKEngine/Classes/PDKEngineViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/PDKEngine.build/Release-iphoneos/PDKEngine.build/Objects-normal/armv6/Networking.o /Users/spencerwhyte/Desktop/PDKEngine/Classes/Networking.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/PDKEngine.build/Release-iphoneos/PDKEngine.build/Objects-normal/armv6/DocumentsScrollViewController.o /Users/spencerwhyte/Desktop/PDKEngine/Classes/../DocumentsScrollViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/PDKEngine.build/Release-iphoneos/PDKEngine.build/Objects-normal/armv6/NavigationController.o /Users/spencerwhyte/Desktop/PDKEngine/Classes/NavigationController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/PDKEngine.build/Release-iphoneos/PDKEngine.build/Objects-normal/armv6/ModeSelectorController.o /Users/spencerwhyte/Desktop/PDKEngine/Classes/ModeSelectorController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/PDKEngine.build/Release-iphoneos/PDKEngine.build/Objects-normal/armv6/BonjourPeerPicker.o /Users/spencerwhyte/Desktop/PDKEngine/Classes/BonjourPeerPicker.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/spencerwhyte/Desktop/PDKEngine/build/PDKEngine.build/Release-iphoneos/PDKEngine.build/Objects-normal/armv6/PDKEngine normal armv6
+cCompileC build/PDKEngine.build/Release-iphoneos/PDKEngine.build/Objects-normal/armv7/main.o /Users/spencerwhyte/Desktop/PDKEngine/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/PDKEngine.build/Release-iphoneos/PDKEngine.build/Objects-normal/armv7/PDKEngineAppDelegate.o /Users/spencerwhyte/Desktop/PDKEngine/Classes/PDKEngineAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/PDKEngine.build/Release-iphoneos/PDKEngine.build/Objects-normal/armv7/EAGLView.o /Users/spencerwhyte/Desktop/PDKEngine/Classes/EAGLView.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/PDKEngine.build/Release-iphoneos/PDKEngine.build/Objects-normal/armv7/PDKEngineViewController.o /Users/spencerwhyte/Desktop/PDKEngine/Classes/PDKEngineViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/PDKEngine.build/Release-iphoneos/PDKEngine.build/Objects-normal/armv7/Networking.o /Users/spencerwhyte/Desktop/PDKEngine/Classes/Networking.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/PDKEngine.build/Release-iphoneos/PDKEngine.build/Objects-normal/armv7/DocumentsScrollViewController.o /Users/spencerwhyte/Desktop/PDKEngine/Classes/../DocumentsScrollViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/PDKEngine.build/Release-iphoneos/PDKEngine.build/Objects-normal/armv7/NavigationController.o /Users/spencerwhyte/Desktop/PDKEngine/Classes/NavigationController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/PDKEngine.build/Release-iphoneos/PDKEngine.build/Objects-normal/armv7/ModeSelectorController.o /Users/spencerwhyte/Desktop/PDKEngine/Classes/ModeSelectorController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/PDKEngine.build/Release-iphoneos/PDKEngine.build/Objects-normal/armv7/BonjourPeerPicker.o /Users/spencerwhyte/Desktop/PDKEngine/Classes/BonjourPeerPicker.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/spencerwhyte/Desktop/PDKEngine/build/PDKEngine.build/Release-iphoneos/PDKEngine.build/Objects-normal/armv7/PDKEngine normal armv7
+cCreateUniversalBinary /Users/spencerwhyte/Desktop/PDKEngine/build/Release-iphoneos/PDKEngine.app/PDKEngine normal "armv6 armv7"
+cGenerateDSYMFile /Users/spencerwhyte/Desktop/PDKEngine/build/Release-iphoneos/PDKEngine.app.dSYM /Users/spencerwhyte/Desktop/PDKEngine/build/Release-iphoneos/PDKEngine.app/PDKEngine
+cProcessProductPackaging "/Users/spencerwhyte/Library/MobileDevice/Provisioning Profiles/C8CB3DD6-6A98-45A5-AA2C-5A3CFE2B4A7B.mobileprovision" /Users/spencerwhyte/Desktop/PDKEngine/build/Release-iphoneos/PDKEngine.app/embedded.mobileprovision
+cTouch /Users/spencerwhyte/Desktop/PDKEngine/build/Release-iphoneos/PDKEngine.app
+cProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/Entitlements.plist /Users/spencerwhyte/Desktop/PDKEngine/build/PDKEngine.build/Release-iphoneos/PDKEngine.build/PDKEngine.xcent
+cCodeSign /Users/spencerwhyte/Desktop/PDKEngine/build/Release-iphoneos/PDKEngine.app
+cValidate /Users/spencerwhyte/Desktop/PDKEngine/build/Release-iphoneos/PDKEngine.app
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk
+c000000004C6DE9E30000000000000110
+t1282271715
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/Entitlements.plist
+c000000004C578FA900000000000001A7
+t1280806825
+s423
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/ResourceRules.plist
+c000000004C578FA900000000000001E5
+t1280806825
+s485
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+c000000004C5A4FC000000000003834C0
+t1280987072
+s3683520
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004C5A52B100000000003E1EF0
+t1280987825
+s4071152
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004C5A527F0000000000001466
+t1280987775
+s5222
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/EAGL.h
+c000000004C5A5504000000000000094F
+t1280988420
+s2383
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES1/gl.h
+c000000004C5A55040000000000009369
+t1280988420
+s37737
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES1/glext.h
+c000000004C5A55040000000000003C4A
+t1280988420
+s15434
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES2/gl.h
+c000000004C5A550400000000000092AA
+t1280988420
+s37546
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES2/glext.h
+c000000004C5A550400000000000026AA
+t1280988420
+s9898
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/OpenGLES.framework/OpenGLES
+c000000004C5A5516000000000002D690
+t1280988438
+s186000
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.h
+c000000004C5A556300000000000000C4
+t1280988515
+s196
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c000000004C5A56D600000000002573D0
+t1280988886
+s2454480
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004C62427000000000000009CD
+t1281507952
+s2509
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004C62430F0000000002EBC2B0
+t1281508111
+s49005232
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/usr/include/Availability.h
+c000000004C57A57A0000000000001A5C
+t1280812410
+s6748
+
+N/Users/spencerwhyte/Desktop/PDKEngine/Classes/../DocumentsScrollViewController.h
+c000000004CFC8CED0000000000000205
+t1291619565
+s517
+i<Foundation/Foundation.h>
+i"NavigationController.h"
+i"ModeSelectorController.h"
+
+N/Users/spencerwhyte/Desktop/PDKEngine/Classes/../DocumentsScrollViewController.m
+c000000004D2001A80000000000000BFC
+t1293943208
+s3068
+i"DocumentsScrollViewController.h"
+
+N/Users/spencerwhyte/Desktop/PDKEngine/Classes/../PDKEngineViewController.xib
+c000000004CF9F9DC00000000000043F5
+t1291450844
+s17397
+
+N/Users/spencerwhyte/Desktop/PDKEngine/Classes/BonjourPeerPicker.h
+c000000004D1FF93C000000000000045B
+t1293941052
+s1115
+i<Foundation/Foundation.h>
+i"Networking.h"
+
+N/Users/spencerwhyte/Desktop/PDKEngine/Classes/BonjourPeerPicker.m
+c000000004D2001BA000000000000089D
+t1293943226
+s2205
+i"BonjourPeerPicker.h"
+
+N/Users/spencerwhyte/Desktop/PDKEngine/Classes/Default.png
+c000000004D16F7D10000000000008D84
+t1293350865
+s36228
+
+N/Users/spencerwhyte/Desktop/PDKEngine/Classes/EAGLView.h
+c000000004CFC7A9B000000000000046F
+t1291614875
+s1135
+i<UIKit/UIKit.h>
+i<OpenGLES/ES1/gl.h>
+i<OpenGLES/ES1/glext.h>
+i<OpenGLES/ES2/gl.h>
+i<OpenGLES/ES2/glext.h>
+i"Networking.h"
+i"DocumentsScrollViewController.h"
+i"NavigationController.h"
+
+N/Users/spencerwhyte/Desktop/PDKEngine/Classes/EAGLView.m
+c000000004D1FF6B70000000000001374
+t1293940407
+s4980
+i<QuartzCore/QuartzCore.h>
+i"EAGLView.h"
+
+N/Users/spencerwhyte/Desktop/PDKEngine/Classes/LogoIdea.png
+c000000004CB89B390000000000008F28
+t1287166777
+s36648
+
+N/Users/spencerwhyte/Desktop/PDKEngine/Classes/ModeSelectorController.h
+c000000004D16F587000000000000024A
+t1293350279
+s586
+i<Foundation/Foundation.h>
+i"BonjourPeerPicker.h"
+i"Networking.h"
+
+N/Users/spencerwhyte/Desktop/PDKEngine/Classes/ModeSelectorController.m
+c000000004D16F865000000000000123D
+t1293351013
+s4669
+i"ModeSelectorController.h"
+
+N/Users/spencerwhyte/Desktop/PDKEngine/Classes/NavigationController.h
+c000000004CFC790400000000000000FF
+t1291614468
+s255
+i<Foundation/Foundation.h>
+
+N/Users/spencerwhyte/Desktop/PDKEngine/Classes/NavigationController.m
+c000000004CFC785C00000000000000E6
+t1291614300
+s230
+i"NavigationController.h"
+
+N/Users/spencerwhyte/Desktop/PDKEngine/Classes/Networking.h
+c000000004D1FF90F000000000000017E
+t1293941007
+s382
+i<Foundation/Foundation.h>
+
+N/Users/spencerwhyte/Desktop/PDKEngine/Classes/Networking.m
+c000000004D1FF92C0000000000000207
+t1293941036
+s519
+i"Networking.h"
+
+N/Users/spencerwhyte/Desktop/PDKEngine/Classes/PDKEngineAppDelegate.h
+c000000004CF9F9DC00000000000001ED
+t1291450844
+s493
+i<UIKit/UIKit.h>
+
+N/Users/spencerwhyte/Desktop/PDKEngine/Classes/PDKEngineAppDelegate.m
+c000000004CF9F9DC00000000000003F7
+t1291450844
+s1015
+i"PDKEngineAppDelegate.h"
+i"PDKEngineViewController.h"
+
+N/Users/spencerwhyte/Desktop/PDKEngine/Classes/PDKEngineViewController.h
+c000000004CFC686500000000000004CD
+t1291610213
+s1229
+i<UIKit/UIKit.h>
+i<OpenGLES/EAGL.h>
+i<OpenGLES/ES1/gl.h>
+i<OpenGLES/ES1/glext.h>
+i<OpenGLES/ES2/gl.h>
+i<OpenGLES/ES2/glext.h>
+
+N/Users/spencerwhyte/Desktop/PDKEngine/Classes/PDKEngineViewController.m
+c000000004CFC881A00000000000025B3
+t1291618330
+s9651
+i<QuartzCore/QuartzCore.h>
+i"PDKEngineViewController.h"
+i"EAGLView.h"
+
+N/Users/spencerwhyte/Desktop/PDKEngine/DocumentsScrollViewController.h
+c000000004CFC8CED0000000000000205
+t1291619565
+s517
+i<Foundation/Foundation.h>
+i"NavigationController.h"
+i"ModeSelectorController.h"
+
+N/Users/spencerwhyte/Desktop/PDKEngine/MainWindow.xib
+c000000004CF9F9DC0000000000005533
+t1291450844
+s21811
+
+N/Users/spencerwhyte/Desktop/PDKEngine/PDKEngine_Prefix.pch
+c000000004CF9F9DC000000000000013C
+t1291450844
+s316
+i<Availability.h>
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/spencerwhyte/Desktop/PDKEngine/Shaders/Shader.fsh
+c000000004CF9F9DC00000000000000DE
+t1291450844
+s222
+
+N/Users/spencerwhyte/Desktop/PDKEngine/Shaders/Shader.vsh
+c000000004CF9F9DC0000000000000164
+t1291450844
+s356
+
+N/Users/spencerwhyte/Desktop/PDKEngine/build/PDKEngine.build/Release-iphoneos/PDKEngine.build/Objects-normal/armv6/BonjourPeerPicker.o
+t1293943228
+s44340
+
+N/Users/spencerwhyte/Desktop/PDKEngine/build/PDKEngine.build/Release-iphoneos/PDKEngine.build/Objects-normal/armv6/DocumentsScrollViewController.o
+t1293943228
+s45596
+
+N/Users/spencerwhyte/Desktop/PDKEngine/build/PDKEngine.build/Release-iphoneos/PDKEngine.build/Objects-normal/armv6/EAGLView.o
+t1293941149
+s49072
+
+N/Users/spencerwhyte/Desktop/PDKEngine/build/PDKEngine.build/Release-iphoneos/PDKEngine.build/Objects-normal/armv6/ModeSelectorController.o
+t1293941149
+s47024
+
+N/Users/spencerwhyte/Desktop/PDKEngine/build/PDKEngine.build/Release-iphoneos/PDKEngine.build/Objects-normal/armv6/NavigationController.o
+t1292213191
+s5380
+
+N/Users/spencerwhyte/Desktop/PDKEngine/build/PDKEngine.build/Release-iphoneos/PDKEngine.build/Objects-normal/armv6/Networking.o
+t1293941149
+s10700
+
+N/Users/spencerwhyte/Desktop/PDKEngine/build/PDKEngine.build/Release-iphoneos/PDKEngine.build/Objects-normal/armv6/PDKEngine
+t1293943228
+s54556
+
+N/Users/spencerwhyte/Desktop/PDKEngine/build/PDKEngine.build/Release-iphoneos/PDKEngine.build/Objects-normal/armv6/PDKEngine.LinkFileList
+c000000004D16D91F00000000000004B6
+t1293343007
+s1206
+
+N/Users/spencerwhyte/Desktop/PDKEngine/build/PDKEngine.build/Release-iphoneos/PDKEngine.build/Objects-normal/armv6/PDKEngineAppDelegate.o
+t1292213191
+s46844
+
+N/Users/spencerwhyte/Desktop/PDKEngine/build/PDKEngine.build/Release-iphoneos/PDKEngine.build/Objects-normal/armv6/PDKEngineViewController.o
+t1293941149
+s57280
+
+N/Users/spencerwhyte/Desktop/PDKEngine/build/PDKEngine.build/Release-iphoneos/PDKEngine.build/Objects-normal/armv6/main.o
+t1292213191
+s6464
+
+N/Users/spencerwhyte/Desktop/PDKEngine/build/PDKEngine.build/Release-iphoneos/PDKEngine.build/Objects-normal/armv7/BonjourPeerPicker.o
+t1293943228
+s44068
+
+N/Users/spencerwhyte/Desktop/PDKEngine/build/PDKEngine.build/Release-iphoneos/PDKEngine.build/Objects-normal/armv7/DocumentsScrollViewController.o
+t1293943228
+s45060
+
+N/Users/spencerwhyte/Desktop/PDKEngine/build/PDKEngine.build/Release-iphoneos/PDKEngine.build/Objects-normal/armv7/EAGLView.o
+t1293941149
+s48496
+
+N/Users/spencerwhyte/Desktop/PDKEngine/build/PDKEngine.build/Release-iphoneos/PDKEngine.build/Objects-normal/armv7/ModeSelectorController.o
+t1293941150
+s46076
+
+N/Users/spencerwhyte/Desktop/PDKEngine/build/PDKEngine.build/Release-iphoneos/PDKEngine.build/Objects-normal/armv7/NavigationController.o
+t1292213192
+s5380
+
+N/Users/spencerwhyte/Desktop/PDKEngine/build/PDKEngine.build/Release-iphoneos/PDKEngine.build/Objects-normal/armv7/Networking.o
+t1293941149
+s10636
+
+N/Users/spencerwhyte/Desktop/PDKEngine/build/PDKEngine.build/Release-iphoneos/PDKEngine.build/Objects-normal/armv7/PDKEngine
+t1293943228
+s50460
+
+N/Users/spencerwhyte/Desktop/PDKEngine/build/PDKEngine.build/Release-iphoneos/PDKEngine.build/Objects-normal/armv7/PDKEngine.LinkFileList
+c000000004D16D91F00000000000004B6
+t1293343007
+s1206
+
+N/Users/spencerwhyte/Desktop/PDKEngine/build/PDKEngine.build/Release-iphoneos/PDKEngine.build/Objects-normal/armv7/PDKEngineAppDelegate.o
+t1292213192
+s46708
+
+N/Users/spencerwhyte/Desktop/PDKEngine/build/PDKEngine.build/Release-iphoneos/PDKEngine.build/Objects-normal/armv7/PDKEngineViewController.o
+t1293941150
+s56252
+
+N/Users/spencerwhyte/Desktop/PDKEngine/build/PDKEngine.build/Release-iphoneos/PDKEngine.build/Objects-normal/armv7/main.o
+t1292213192
+s6424
+
+N/Users/spencerwhyte/Desktop/PDKEngine/build/PDKEngine.build/Release-iphoneos/PDKEngine.build/PDKEngine.xcent
+t1292213192
+s424
+
+N/Users/spencerwhyte/Desktop/PDKEngine/build/PDKEngine.build/Release-iphoneos/PDKEngine.build/com.apple.build-tools.platform.validate
+t2
+s0
+
+N/Users/spencerwhyte/Desktop/PDKEngine/build/Release-iphoneos/PDKEngine.app
+t1294123333
+s544
+
+N/Users/spencerwhyte/Desktop/PDKEngine/build/Release-iphoneos/PDKEngine.app.dSYM
+t1293943228
+s102
+
+N/Users/spencerwhyte/Desktop/PDKEngine/build/Release-iphoneos/PDKEngine.app/Default.png
+t1293350872
+s35752
+
+N/Users/spencerwhyte/Desktop/PDKEngine/build/Release-iphoneos/PDKEngine.app/Info.plist
+t1292213184
+s864
+
+N/Users/spencerwhyte/Desktop/PDKEngine/build/Release-iphoneos/PDKEngine.app/LogoIdea.png
+t1293350241
+s33012
+
+N/Users/spencerwhyte/Desktop/PDKEngine/build/Release-iphoneos/PDKEngine.app/MainWindow.nib
+t1292213187
+s1811
+
+N/Users/spencerwhyte/Desktop/PDKEngine/build/Release-iphoneos/PDKEngine.app/PDKEngine
+t1293943228
+s122064
+
+N/Users/spencerwhyte/Desktop/PDKEngine/build/Release-iphoneos/PDKEngine.app/PDKEngineViewController.nib
+t1292213188
+s1342
+
+N/Users/spencerwhyte/Desktop/PDKEngine/build/Release-iphoneos/PDKEngine.app/PkgInfo
+t1292213184
+s8
+
+N/Users/spencerwhyte/Desktop/PDKEngine/build/Release-iphoneos/PDKEngine.app/ResourceRules.plist
+t1292213185
+s485
+
+N/Users/spencerwhyte/Desktop/PDKEngine/build/Release-iphoneos/PDKEngine.app/Shader.fsh
+t1292213185
+s222
+
+N/Users/spencerwhyte/Desktop/PDKEngine/build/Release-iphoneos/PDKEngine.app/Shader.vsh
+t1292213185
+s356
+
+N/Users/spencerwhyte/Desktop/PDKEngine/build/Release-iphoneos/PDKEngine.app/defaultImage.png
+t1292213186
+s4934
+
+N/Users/spencerwhyte/Desktop/PDKEngine/build/Release-iphoneos/PDKEngine.app/embedded.mobileprovision
+t1292213192
+s7164
+
+N/Users/spencerwhyte/Desktop/PDKEngine/defaultImage.png
+c000000004CFC925100000000000010B7
+t1291620945
+s4279
+
+N/Users/spencerwhyte/Desktop/PDKEngine/main.m
+c000000004CF9F9DC000000000000016D
+t1291450844
+s365
+i<UIKit/UIKit.h>
+
+N/Users/spencerwhyte/Library/MobileDevice/Provisioning Profiles/C8CB3DD6-6A98-45A5-AA2C-5A3CFE2B4A7B.mobileprovision
+c000000004CFC5DF00000000000001BFC
+t1291607536
+s7164
+
+N/var/folders/t+/t+mDLEErH10OmrEqCleGzk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PDKEngine_Prefix-bjmckpheloevhjbbcsqlfixiahzp/PDKEngine_Prefix.pch.gch
+t1292213191
+s9631280
+
+N/var/folders/t+/t+mDLEErH10OmrEqCleGzk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PDKEngine_Prefix-hiptotdyninjkkfommcfdwmkinyd/PDKEngine_Prefix.pch.gch
+t1292213190
+s10094128
+
+NPDKEngine-Info.plist
+c000000004CFC5D3E0000000000000445
+t1291607358
+s1093
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies315816132#315816132#0(0"0(0#1#0"8629584960#0"0#
+
+CCodeSign /Users/spencerwhyte/Desktop/PDKEngine/build/Release-iphoneos/PDKEngine.app
+s315816132.548455
+e315816133.191031
+r1
+xCodeSign
+x/Users/spencerwhyte/Desktop/PDKEngine/build/Release-iphoneos/PDKEngine.app
+o/Users/spencerwhyte/Desktop/PDKEngine/build/Release-iphoneos/PDKEngine.app: replacing existing signature
+lSLF07#2@45"CodeSign build/Release-iphoneos/PDKEngine.app315816132#315816133#0(105"/Users/spencerwhyte/Desktop/PDKEngine/build/Release-iphoneos/PDKEngine.app: replacing existing signature0(0#0#74"/Users/spencerwhyte/Desktop/PDKEngine/build/Release-iphoneos/PDKEngine.app8613687776#665"    cd /Users/spencerwhyte/Desktop/PDKEngine    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv _CODESIGN_ALLOCATE_ /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    /usr/bin/codesign -f -s "iPhone Developer: Mary Barker-Whyte (4L3VE25VP4)" --resource-rules=/Users/spencerwhyte/Desktop/PDKEngine/build/Release-iphoneos/PDKEngine.app/ResourceRules.plist --entitlements /Users/spencerwhyte/Desktop/PDKEngine/build/PDKEngine.build/Release-iphoneos/PDKEngine.build/PDKEngine.xcent /Users/spencerwhyte/Desktop/PDKEngine/build/Release-iphoneos/PDKEngine.app0#
+
+CCompileC build/PDKEngine.build/Release-iphoneos/PDKEngine.build/Objects-normal/armv6/BonjourPeerPicker.o /Users/spencerwhyte/Desktop/PDKEngine/Classes/BonjourPeerPicker.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s315636028.382729
+e315636028.542717
+r1
+xCompileC
+xbuild/PDKEngine.build/Release-iphoneos/PDKEngine.build/Objects-normal/armv6/BonjourPeerPicker.o
+x/Users/spencerwhyte/Desktop/PDKEngine/Classes/BonjourPeerPicker.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/spencerwhyte/Desktop/PDKEngine/Classes/Networking.h:11: warning: 'netService' defined but not used
+lSLF07#2@73"Compile /Users/spencerwhyte/Desktop/PDKEngine/Classes/BonjourPeerPicker.m315636028#315636028#0(106"/Users/spencerwhyte/Desktop/PDKEngine/Classes/Networking.h:11: warning: 'netService' defined but not used1(22@33"'netService' defined but not used315636028#0#106#0(6@58"/Users/spencerwhyte/Desktop/PDKEngine/Classes/Networking.h315633807#11#0#11#0#24"'*' defined but not used0(0#0#65"/Users/spencerwhyte/Desktop/PDKEngine/Classes/BonjourPeerPicker.m8627825888#1838"    cd /Users/spencerwhyte/Desktop/PDKEngine    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -miphoneos-version-min=4.1 -iquote /Users/spencerwhyte/Desktop/PDKEngine/build/PDKEngine.build/Release-iphoneos/PDKEngine.build/PDKEngine-generated-files.hmap -I/Users/spencerwhyte/Desktop/PDKEngine/build/PDKEngine.build/Release-iphoneos/PDKEngine.build/PDKEngine-own-target-headers.hmap -I/Users/spencerwhyte/Desktop/PDKEngine/build/PDKEngine.build/Release-iphoneos/PDKEngine.build/PDKEngine-all-target-headers.hmap -iquote /Users/spencerwhyte/Desktop/PDKEngine/build/PDKEngine.build/Release-iphoneos/PDKEngine.build/PDKEngine-project-headers.hmap -F/Users/spencerwhyte/Desktop/PDKEngine/build/Release-iphoneos -I/Users/spencerwhyte/Desktop/PDKEngine/build/Release-iphoneos/include -I/Users/spencerwhyte/Desktop/PDKEngine/build/PDKEngine.build/Release-iphoneos/PDKEngine.build/DerivedSources/armv6 -I/Users/spencerwhyte/Desktop/PDKEngine/build/PDKEngine.build/Release-iphoneos/PDKEngine.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/t+/t+mDLEErH10OmrEqCleGzk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PDKEngine_Prefix-bjmckpheloevhjbbcsqlfixiahzp/PDKEngine_Prefix.pch -c /Users/spencerwhyte/Desktop/PDKEngine/Classes/BonjourPeerPicker.m -o /Users/spencerwhyte/Desktop/PDKEngine/build/PDKEngine.build/Release-iphoneos/PDKEngine.build/Objects-normal/armv6/BonjourPeerPicker.o0#
+
+CCompileC build/PDKEngine.build/Release-iphoneos/PDKEngine.build/Objects-normal/armv6/DocumentsScrollViewController.o /Users/spencerwhyte/Desktop/PDKEngine/Classes/../DocumentsScrollViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s315636028.381217
+e315636028.564327
+r1
+xCompileC
+xbuild/PDKEngine.build/Release-iphoneos/PDKEngine.build/Objects-normal/armv6/DocumentsScrollViewController.o
+x/Users/spencerwhyte/Desktop/PDKEngine/Classes/../DocumentsScrollViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/spencerwhyte/Desktop/PDKEngine/Classes/Networking.h:11: warning: 'netService' defined but not used
+o/Users/spencerwhyte/Desktop/PDKEngine/Classes/ModeSelectorController.h:13: warning: 'defaultImageView' defined but not used
+lSLF07#2@88"Compile /Users/spencerwhyte/Desktop/PDKEngine/Classes/../DocumentsScrollViewController.m315636028#315636028#0(230"/Users/spencerwhyte/Desktop/PDKEngine/Classes/Networking.h:11: warning: 'netService' defined but not used/Users/spencerwhyte/Desktop/PDKEngine/Classes/ModeSelectorController.h:13: warning: 'defaultImageView' defined but not used2(22@33"'netService' defined but not used315636028#0#106#0(6@58"/Users/spencerwhyte/Desktop/PDKEngine/Classes/Networking.h315633807#11#0#11#0#24"'*' defined but not used0(22@39"'defaultImageView' defined but not used315636028#106#124#0(6@70"/Users/spencerwhyte/Desktop/PDKEngine/Classes/ModeSelectorController.h315043079#13#0#13#0#24"'*' defined but not used0(0#0#80"/Users/spencerwhyte/Desktop/PDKEngine/Classes/../DocumentsScrollViewController.m8628082112#1865"    cd /Users/spencerwhyte/Desktop/PDKEngine    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -miphoneos-version-min=4.1 -iquote /Users/spencerwhyte/Desktop/PDKEngine/build/PDKEngine.build/Release-iphoneos/PDKEngine.build/PDKEngine-generated-files.hmap -I/Users/spencerwhyte/Desktop/PDKEngine/build/PDKEngine.build/Release-iphoneos/PDKEngine.build/PDKEngine-own-target-headers.hmap -I/Users/spencerwhyte/Desktop/PDKEngine/build/PDKEngine.build/Release-iphoneos/PDKEngine.build/PDKEngine-all-target-headers.hmap -iquote /Users/spencerwhyte/Desktop/PDKEngine/build/PDKEngine.build/Release-iphoneos/PDKEngine.build/PDKEngine-project-headers.hmap -F/Users/spencerwhyte/Desktop/PDKEngine/build/Release-iphoneos -I/Users/spencerwhyte/Desktop/PDKEngine/build/Release-iphoneos/include -I/Users/spencerwhyte/Desktop/PDKEngine/build/PDKEngine.build/Release-iphoneos/PDKEngine.build/DerivedSources/armv6 -I/Users/spencerwhyte/Desktop/PDKEngine/build/PDKEngine.build/Release-iphoneos/PDKEngine.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/t+/t+mDLEErH10OmrEqCleGzk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PDKEngine_Prefix-bjmckpheloevhjbbcsqlfixiahzp/PDKEngine_Prefix.pch -c /Users/spencerwhyte/Desktop/PDKEngine/Classes/../DocumentsScrollViewController.m -o /Users/spencerwhyte/Desktop/PDKEngine/build/PDKEngine.build/Release-iphoneos/PDKEngine.build/Objects-normal/armv6/DocumentsScrollViewController.o0#
+
+CCompileC build/PDKEngine.build/Release-iphoneos/PDKEngine.build/Objects-normal/armv6/EAGLView.o /Users/spencerwhyte/Desktop/PDKEngine/Classes/EAGLView.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s315633949.379864
+e315633949.609060
+r1
+xCompileC
+xbuild/PDKEngine.build/Release-iphoneos/PDKEngine.build/Objects-normal/armv6/EAGLView.o
+x/Users/spencerwhyte/Desktop/PDKEngine/Classes/EAGLView.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/spencerwhyte/Desktop/PDKEngine/Classes/Networking.h:11: warning: 'netService' defined but not used
+o/Users/spencerwhyte/Desktop/PDKEngine/Classes/ModeSelectorController.h:13: warning: 'defaultImageView' defined but not used
+lSLF07#2@64"Compile /Users/spencerwhyte/Desktop/PDKEngine/Classes/EAGLView.m315633949#315633949#0(230"/Users/spencerwhyte/Desktop/PDKEngine/Classes/Networking.h:11: warning: 'netService' defined but not used/Users/spencerwhyte/Desktop/PDKEngine/Classes/ModeSelectorController.h:13: warning: 'defaultImageView' defined but not used2(22@33"'netService' defined but not used315633949#0#106#0(6@58"/Users/spencerwhyte/Desktop/PDKEngine/Classes/Networking.h315633807#11#0#11#0#24"'*' defined but not used0(22@39"'defaultImageView' defined but not used315633949#106#124#0(6@70"/Users/spencerwhyte/Desktop/PDKEngine/Classes/ModeSelectorController.h315043079#13#0#13#0#24"'*' defined but not used0(0#0#56"/Users/spencerwhyte/Desktop/PDKEngine/Classes/EAGLView.m8621916224#1820"    cd /Users/spencerwhyte/Desktop/PDKEngine    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -miphoneos-version-min=4.1 -iquote /Users/spencerwhyte/Desktop/PDKEngine/build/PDKEngine.build/Release-iphoneos/PDKEngine.build/PDKEngine-generated-files.hmap -I/Users/spencerwhyte/Desktop/PDKEngine/build/PDKEngine.build/Release-iphoneos/PDKEngine.build/PDKEngine-own-target-headers.hmap -I/Users/spencerwhyte/Desktop/PDKEngine/build/PDKEngine.build/Release-iphoneos/PDKEngine.build/PDKEngine-all-target-headers.hmap -iquote /Users/spencerwhyte/Desktop/PDKEngine/build/PDKEngine.build/Release-iphoneos/PDKEngine.build/PDKEngine-project-headers.hmap -F/Users/spencerwhyte/Desktop/PDKEngine/build/Release-iphoneos -I/Users/spencerwhyte/Desktop/PDKEngine/build/Release-iphoneos/include -I/Users/spencerwhyte/Desktop/PDKEngine/build/PDKEngine.build/Release-iphoneos/PDKEngine.build/DerivedSources/armv6 -I/Users/spencerwhyte/Desktop/PDKEngine/build/PDKEngine.build/Release-iphoneos/PDKEngine.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/t+/t+mDLEErH10OmrEqCleGzk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PDKEngine_Prefix-bjmckpheloevhjbbcsqlfixiahzp/PDKEngine_Prefix.pch -c /Users/spencerwhyte/Desktop/PDKEngine/Classes/EAGLView.m -o /Users/spencerwhyte/Desktop/PDKEngine/build/PDKEngine.build/Release-iphoneos/PDKEngine.build/Objects-normal/armv6/EAGLView.o0#
+
+CCompileC build/PDKEngine.build/Release-iphoneos/PDKEngine.build/Objects-normal/armv6/ModeSelectorController.o /Users/spencerwhyte/Desktop/PDKEngine/Classes/ModeSelectorController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s315633949.459127
+e315633949.833072
+r1
+xCompileC
+xbuild/PDKEngine.build/Release-iphoneos/PDKEngine.build/Objects-normal/armv6/ModeSelectorController.o
+x/Users/spencerwhyte/Desktop/PDKEngine/Classes/ModeSelectorController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/spencerwhyte/Desktop/PDKEngine/Classes/Networking.h:11: warning: 'netService' defined but not used
+lSLF07#2@78"Compile /Users/spencerwhyte/Desktop/PDKEngine/Classes/ModeSelectorController.m315633949#315633949#0(106"/Users/spencerwhyte/Desktop/PDKEngine/Classes/Networking.h:11: warning: 'netService' defined but not used1(22@33"'netService' defined but not used315633949#0#106#0(6@58"/Users/spencerwhyte/Desktop/PDKEngine/Classes/Networking.h315633807#11#0#11#0#24"'*' defined but not used0(0#0#70"/Users/spencerwhyte/Desktop/PDKEngine/Classes/ModeSelectorController.m8621066272#1848"    cd /Users/spencerwhyte/Desktop/PDKEngine    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -miphoneos-version-min=4.1 -iquote /Users/spencerwhyte/Desktop/PDKEngine/build/PDKEngine.build/Release-iphoneos/PDKEngine.build/PDKEngine-generated-files.hmap -I/Users/spencerwhyte/Desktop/PDKEngine/build/PDKEngine.build/Release-iphoneos/PDKEngine.build/PDKEngine-own-target-headers.hmap -I/Users/spencerwhyte/Desktop/PDKEngine/build/PDKEngine.build/Release-iphoneos/PDKEngine.build/PDKEngine-all-target-headers.hmap -iquote /Users/spencerwhyte/Desktop/PDKEngine/build/PDKEngine.build/Release-iphoneos/PDKEngine.build/PDKEngine-project-headers.hmap -F/Users/spencerwhyte/Desktop/PDKEngine/build/Release-iphoneos -I/Users/spencerwhyte/Desktop/PDKEngine/build/Release-iphoneos/include -I/Users/spencerwhyte/Desktop/PDKEngine/build/PDKEngine.build/Release-iphoneos/PDKEngine.build/DerivedSources/armv6 -I/Users/spencerwhyte/Desktop/PDKEngine/build/PDKEngine.build/Release-iphoneos/PDKEngine.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/t+/t+mDLEErH10OmrEqCleGzk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PDKEngine_Prefix-bjmckpheloevhjbbcsqlfixiahzp/PDKEngine_Prefix.pch -c /Users/spencerwhyte/Desktop/PDKEngine/Classes/ModeSelectorController.m -o /Users/spencerwhyte/Desktop/PDKEngine/build/PDKEngine.build/Release-iphoneos/PDKEngine.build/Objects-normal/armv6/ModeSelectorController.o0#
+
+CCompileC build/PDKEngine.build/Release-iphoneos/PDKEngine.build/Objects-normal/armv6/NavigationController.o /Users/spencerwhyte/Desktop/PDKEngine/Classes/NavigationController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s313905991.891896
+e313905991.968525
+r1
+xCompileC
+xbuild/PDKEngine.build/Release-iphoneos/PDKEngine.build/Objects-normal/armv6/NavigationController.o
+x/Users/spencerwhyte/Desktop/PDKEngine/Classes/NavigationController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@76"Compile /Users/spencerwhyte/Desktop/PDKEngine/Classes/NavigationController.m313905991#313905991#0(0"0(0#0#68"/Users/spencerwhyte/Desktop/PDKEngine/Classes/NavigationController.m8642601376#1844"    cd /Users/spencerwhyte/Desktop/PDKEngine    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -miphoneos-version-min=4.1 -iquote /Users/spencerwhyte/Desktop/PDKEngine/build/PDKEngine.build/Release-iphoneos/PDKEngine.build/PDKEngine-generated-files.hmap -I/Users/spencerwhyte/Desktop/PDKEngine/build/PDKEngine.build/Release-iphoneos/PDKEngine.build/PDKEngine-own-target-headers.hmap -I/Users/spencerwhyte/Desktop/PDKEngine/build/PDKEngine.build/Release-iphoneos/PDKEngine.build/PDKEngine-all-target-headers.hmap -iquote /Users/spencerwhyte/Desktop/PDKEngine/build/PDKEngine.build/Release-iphoneos/PDKEngine.build/PDKEngine-project-headers.hmap -F/Users/spencerwhyte/Desktop/PDKEngine/build/Release-iphoneos -I/Users/spencerwhyte/Desktop/PDKEngine/build/Release-iphoneos/include -I/Users/spencerwhyte/Desktop/PDKEngine/build/PDKEngine.build/Release-iphoneos/PDKEngine.build/DerivedSources/armv6 -I/Users/spencerwhyte/Desktop/PDKEngine/build/PDKEngine.build/Release-iphoneos/PDKEngine.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/t+/t+mDLEErH10OmrEqCleGzk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PDKEngine_Prefix-bjmckpheloevhjbbcsqlfixiahzp/PDKEngine_Prefix.pch -c /Users/spencerwhyte/Desktop/PDKEngine/Classes/NavigationController.m -o /Users/spencerwhyte/Desktop/PDKEngine/build/PDKEngine.build/Release-iphoneos/PDKEngine.build/Objects-normal/armv6/NavigationController.o0#
+
+CCompileC build/PDKEngine.build/Release-iphoneos/PDKEngine.build/Objects-normal/armv6/Networking.o /Users/spencerwhyte/Desktop/PDKEngine/Classes/Networking.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s315633949.382026
+e315633949.458842
+r1
+xCompileC
+xbuild/PDKEngine.build/Release-iphoneos/PDKEngine.build/Objects-normal/armv6/Networking.o
+x/Users/spencerwhyte/Desktop/PDKEngine/Classes/Networking.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@66"Compile /Users/spencerwhyte/Desktop/PDKEngine/Classes/Networking.m315633949#315633949#0(0"0(0#0#58"/Users/spencerwhyte/Desktop/PDKEngine/Classes/Networking.m8621823456#1824"    cd /Users/spencerwhyte/Desktop/PDKEngine    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -miphoneos-version-min=4.1 -iquote /Users/spencerwhyte/Desktop/PDKEngine/build/PDKEngine.build/Release-iphoneos/PDKEngine.build/PDKEngine-generated-files.hmap -I/Users/spencerwhyte/Desktop/PDKEngine/build/PDKEngine.build/Release-iphoneos/PDKEngine.build/PDKEngine-own-target-headers.hmap -I/Users/spencerwhyte/Desktop/PDKEngine/build/PDKEngine.build/Release-iphoneos/PDKEngine.build/PDKEngine-all-target-headers.hmap -iquote /Users/spencerwhyte/Desktop/PDKEngine/build/PDKEngine.build/Release-iphoneos/PDKEngine.build/PDKEngine-project-headers.hmap -F/Users/spencerwhyte/Desktop/PDKEngine/build/Release-iphoneos -I/Users/spencerwhyte/Desktop/PDKEngine/build/Release-iphoneos/include -I/Users/spencerwhyte/Desktop/PDKEngine/build/PDKEngine.build/Release-iphoneos/PDKEngine.build/DerivedSources/armv6 -I/Users/spencerwhyte/Desktop/PDKEngine/build/PDKEngine.build/Release-iphoneos/PDKEngine.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/t+/t+mDLEErH10OmrEqCleGzk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PDKEngine_Prefix-bjmckpheloevhjbbcsqlfixiahzp/PDKEngine_Prefix.pch -c /Users/spencerwhyte/Desktop/PDKEngine/Classes/Networking.m -o /Users/spencerwhyte/Desktop/PDKEngine/build/PDKEngine.build/Release-iphoneos/PDKEngine.build/Objects-normal/armv6/Networking.o0#
+
+CCompileC build/PDKEngine.build/Release-iphoneos/PDKEngine.build/Objects-normal/armv6/PDKEngineAppDelegate.o /Users/spencerwhyte/Desktop/PDKEngine/Classes/PDKEngineAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s313905991.377463
+e313905991.855744
+r1
+xCompileC
+xbuild/PDKEngine.build/Release-iphoneos/PDKEngine.build/Objects-normal/armv6/PDKEngineAppDelegate.o
+x/Users/spencerwhyte/Desktop/PDKEngine/Classes/PDKEngineAppDelegate.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@76"Compile /Users/spencerwhyte/Desktop/PDKEngine/Classes/PDKEngineAppDelegate.m313905991#313905991#0(0"0(0#0#68"/Users/spencerwhyte/Desktop/PDKEngine/Classes/PDKEngineAppDelegate.m8686222720#1844"    cd /Users/spencerwhyte/Desktop/PDKEngine    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -miphoneos-version-min=4.1 -iquote /Users/spencerwhyte/Desktop/PDKEngine/build/PDKEngine.build/Release-iphoneos/PDKEngine.build/PDKEngine-generated-files.hmap -I/Users/spencerwhyte/Desktop/PDKEngine/build/PDKEngine.build/Release-iphoneos/PDKEngine.build/PDKEngine-own-target-headers.hmap -I/Users/spencerwhyte/Desktop/PDKEngine/build/PDKEngine.build/Release-iphoneos/PDKEngine.build/PDKEngine-all-target-headers.hmap -iquote /Users/spencerwhyte/Desktop/PDKEngine/build/PDKEngine.build/Release-iphoneos/PDKEngine.build/PDKEngine-project-headers.hmap -F/Users/spencerwhyte/Desktop/PDKEngine/build/Release-iphoneos -I/Users/spencerwhyte/Desktop/PDKEngine/build/Release-iphoneos/include -I/Users/spencerwhyte/Desktop/PDKEngine/build/PDKEngine.build/Release-iphoneos/PDKEngine.build/DerivedSources/armv6 -I/Users/spencerwhyte/Desktop/PDKEngine/build/PDKEngine.build/Release-iphoneos/PDKEngine.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/t+/t+mDLEErH10OmrEqCleGzk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PDKEngine_Prefix-bjmckpheloevhjbbcsqlfixiahzp/PDKEngine_Prefix.pch -c /Users/spencerwhyte/Desktop/PDKEngine/Classes/PDKEngineAppDelegate.m -o /Users/spencerwhyte/Desktop/PDKEngine/build/PDKEngine.build/Release-iphoneos/PDKEngine.build/Objects-normal/armv6/PDKEngineAppDelegate.o0#
+
+CCompileC build/PDKEngine.build/Release-iphoneos/PDKEngine.build/Objects-normal/armv6/PDKEngineViewController.o /Users/spencerwhyte/Desktop/PDKEngine/Classes/PDKEngineViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s315633949.381072
+e315633949.834490
+r1
+xCompileC
+xbuild/PDKEngine.build/Release-iphoneos/PDKEngine.build/Objects-normal/armv6/PDKEngineViewController.o
+x/Users/spencerwhyte/Desktop/PDKEngine/Classes/PDKEngineViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/spencerwhyte/Desktop/PDKEngine/Classes/Networking.h:11: warning: 'netService' defined but not used
+o/Users/spencerwhyte/Desktop/PDKEngine/Classes/ModeSelectorController.h:13: warning: 'defaultImageView' defined but not used
+lSLF07#2@79"Compile /Users/spencerwhyte/Desktop/PDKEngine/Classes/PDKEngineViewController.m315633949#315633949#0(230"/Users/spencerwhyte/Desktop/PDKEngine/Classes/Networking.h:11: warning: 'netService' defined but not used/Users/spencerwhyte/Desktop/PDKEngine/Classes/ModeSelectorController.h:13: warning: 'defaultImageView' defined but not used2(22@33"'netService' defined but not used315633949#0#106#0(6@58"/Users/spencerwhyte/Desktop/PDKEngine/Classes/Networking.h315633807#11#0#11#0#24"'*' defined but not used0(22@39"'defaultImageView' defined but not used315633949#106#124#0(6@70"/Users/spencerwhyte/Desktop/PDKEngine/Classes/ModeSelectorController.h315043079#13#0#13#0#24"'*' defined but not used0(0#0#71"/Users/spencerwhyte/Desktop/PDKEngine/Classes/PDKEngineViewController.m8616341792#1850"    cd /Users/spencerwhyte/Desktop/PDKEngine    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -miphoneos-version-min=4.1 -iquote /Users/spencerwhyte/Desktop/PDKEngine/build/PDKEngine.build/Release-iphoneos/PDKEngine.build/PDKEngine-generated-files.hmap -I/Users/spencerwhyte/Desktop/PDKEngine/build/PDKEngine.build/Release-iphoneos/PDKEngine.build/PDKEngine-own-target-headers.hmap -I/Users/spencerwhyte/Desktop/PDKEngine/build/PDKEngine.build/Release-iphoneos/PDKEngine.build/PDKEngine-all-target-headers.hmap -iquote /Users/spencerwhyte/Desktop/PDKEngine/build/PDKEngine.build/Release-iphoneos/PDKEngine.build/PDKEngine-project-headers.hmap -F/Users/spencerwhyte/Desktop/PDKEngine/build/Release-iphoneos -I/Users/spencerwhyte/Desktop/PDKEngine/build/Release-iphoneos/include -I/Users/spencerwhyte/Desktop/PDKEngine/build/PDKEngine.build/Release-iphoneos/PDKEngine.build/DerivedSources/armv6 -I/Users/spencerwhyte/Desktop/PDKEngine/build/PDKEngine.build/Release-iphoneos/PDKEngine.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/t+/t+mDLEErH10OmrEqCleGzk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PDKEngine_Prefix-bjmckpheloevhjbbcsqlfixiahzp/PDKEngine_Prefix.pch -c /Users/spencerwhyte/Desktop/PDKEngine/Classes/PDKEngineViewController.m -o /Users/spencerwhyte/Desktop/PDKEngine/build/PDKEngine.build/Release-iphoneos/PDKEngine.build/Objects-normal/armv6/PDKEngineViewController.o0#
+
+CCompileC build/PDKEngine.build/Release-iphoneos/PDKEngine.build/Objects-normal/armv6/main.o /Users/spencerwhyte/Desktop/PDKEngine/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s313905991.376434
+e313905991.705137
+r1
+xCompileC
+xbuild/PDKEngine.build/Release-iphoneos/PDKEngine.build/Objects-normal/armv6/main.o
+x/Users/spencerwhyte/Desktop/PDKEngine/main.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@52"Compile /Users/spencerwhyte/Desktop/PDKEngine/main.m313905991#313905991#0(0"0(0#0#44"/Users/spencerwhyte/Desktop/PDKEngine/main.m8721569792#1804"    cd /Users/spencerwhyte/Desktop/PDKEngine    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -miphoneos-version-min=4.1 -iquote /Users/spencerwhyte/Desktop/PDKEngine/build/PDKEngine.build/Release-iphoneos/PDKEngine.build/PDKEngine-generated-files.hmap -I/Users/spencerwhyte/Desktop/PDKEngine/build/PDKEngine.build/Release-iphoneos/PDKEngine.build/PDKEngine-own-target-headers.hmap -I/Users/spencerwhyte/Desktop/PDKEngine/build/PDKEngine.build/Release-iphoneos/PDKEngine.build/PDKEngine-all-target-headers.hmap -iquote /Users/spencerwhyte/Desktop/PDKEngine/build/PDKEngine.build/Release-iphoneos/PDKEngine.build/PDKEngine-project-headers.hmap -F/Users/spencerwhyte/Desktop/PDKEngine/build/Release-iphoneos -I/Users/spencerwhyte/Desktop/PDKEngine/build/Release-iphoneos/include -I/Users/spencerwhyte/Desktop/PDKEngine/build/PDKEngine.build/Release-iphoneos/PDKEngine.build/DerivedSources/armv6 -I/Users/spencerwhyte/Desktop/PDKEngine/build/PDKEngine.build/Release-iphoneos/PDKEngine.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/t+/t+mDLEErH10OmrEqCleGzk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PDKEngine_Prefix-bjmckpheloevhjbbcsqlfixiahzp/PDKEngine_Prefix.pch -c /Users/spencerwhyte/Desktop/PDKEngine/main.m -o /Users/spencerwhyte/Desktop/PDKEngine/build/PDKEngine.build/Release-iphoneos/PDKEngine.build/Objects-normal/armv6/main.o0#
+
+CCompileC build/PDKEngine.build/Release-iphoneos/PDKEngine.build/Objects-normal/armv7/BonjourPeerPicker.o /Users/spencerwhyte/Desktop/PDKEngine/Classes/BonjourPeerPicker.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s315636028.386186
+e315636028.535397
+r1
+xCompileC
+xbuild/PDKEngine.build/Release-iphoneos/PDKEngine.build/Objects-normal/armv7/BonjourPeerPicker.o
+x/Users/spencerwhyte/Desktop/PDKEngine/Classes/BonjourPeerPicker.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/spencerwhyte/Desktop/PDKEngine/Classes/Networking.h:11: warning: 'netService' defined but not used
+lSLF07#2@73"Compile /Users/spencerwhyte/Desktop/PDKEngine/Classes/BonjourPeerPicker.m315636028#315636028#0(106"/Users/spencerwhyte/Desktop/PDKEngine/Classes/Networking.h:11: warning: 'netService' defined but not used1(22@33"'netService' defined but not used315636028#0#106#0(6@58"/Users/spencerwhyte/Desktop/PDKEngine/Classes/Networking.h315633807#11#0#11#0#24"'*' defined but not used0(0#0#65"/Users/spencerwhyte/Desktop/PDKEngine/Classes/BonjourPeerPicker.m8627486496#1846"    cd /Users/spencerwhyte/Desktop/PDKEngine    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote /Users/spencerwhyte/Desktop/PDKEngine/build/PDKEngine.build/Release-iphoneos/PDKEngine.build/PDKEngine-generated-files.hmap -I/Users/spencerwhyte/Desktop/PDKEngine/build/PDKEngine.build/Release-iphoneos/PDKEngine.build/PDKEngine-own-target-headers.hmap -I/Users/spencerwhyte/Desktop/PDKEngine/build/PDKEngine.build/Release-iphoneos/PDKEngine.build/PDKEngine-all-target-headers.hmap -iquote /Users/spencerwhyte/Desktop/PDKEngine/build/PDKEngine.build/Release-iphoneos/PDKEngine.build/PDKEngine-project-headers.hmap -F/Users/spencerwhyte/Desktop/PDKEngine/build/Release-iphoneos -I/Users/spencerwhyte/Desktop/PDKEngine/build/Release-iphoneos/include -I/Users/spencerwhyte/Desktop/PDKEngine/build/PDKEngine.build/Release-iphoneos/PDKEngine.build/DerivedSources/armv7 -I/Users/spencerwhyte/Desktop/PDKEngine/build/PDKEngine.build/Release-iphoneos/PDKEngine.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/t+/t+mDLEErH10OmrEqCleGzk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PDKEngine_Prefix-hiptotdyninjkkfommcfdwmkinyd/PDKEngine_Prefix.pch -c /Users/spencerwhyte/Desktop/PDKEngine/Classes/BonjourPeerPicker.m -o /Users/spencerwhyte/Desktop/PDKEngine/build/PDKEngine.build/Release-iphoneos/PDKEngine.build/Objects-normal/armv7/BonjourPeerPicker.o0#
+
+CCompileC build/PDKEngine.build/Release-iphoneos/PDKEngine.build/Objects-normal/armv7/DocumentsScrollViewController.o /Users/spencerwhyte/Desktop/PDKEngine/Classes/../DocumentsScrollViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s315636028.384613
+e315636028.565602
+r1
+xCompileC
+xbuild/PDKEngine.build/Release-iphoneos/PDKEngine.build/Objects-normal/armv7/DocumentsScrollViewController.o
+x/Users/spencerwhyte/Desktop/PDKEngine/Classes/../DocumentsScrollViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/spencerwhyte/Desktop/PDKEngine/Classes/Networking.h:11: warning: 'netService' defined but not used
+o/Users/spencerwhyte/Desktop/PDKEngine/Classes/ModeSelectorController.h:13: warning: 'defaultImageView' defined but not used
+lSLF07#2@88"Compile /Users/spencerwhyte/Desktop/PDKEngine/Classes/../DocumentsScrollViewController.m315636028#315636028#0(230"/Users/spencerwhyte/Desktop/PDKEngine/Classes/Networking.h:11: warning: 'netService' defined but not used/Users/spencerwhyte/Desktop/PDKEngine/Classes/ModeSelectorController.h:13: warning: 'defaultImageView' defined but not used2(22@33"'netService' defined but not used315636028#0#106#0(6@58"/Users/spencerwhyte/Desktop/PDKEngine/Classes/Networking.h315633807#11#0#11#0#24"'*' defined but not used0(22@39"'defaultImageView' defined but not used315636028#106#124#0(6@70"/Users/spencerwhyte/Desktop/PDKEngine/Classes/ModeSelectorController.h315043079#13#0#13#0#24"'*' defined but not used0(0#0#80"/Users/spencerwhyte/Desktop/PDKEngine/Classes/../DocumentsScrollViewController.m8627636928#1873"    cd /Users/spencerwhyte/Desktop/PDKEngine    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote /Users/spencerwhyte/Desktop/PDKEngine/build/PDKEngine.build/Release-iphoneos/PDKEngine.build/PDKEngine-generated-files.hmap -I/Users/spencerwhyte/Desktop/PDKEngine/build/PDKEngine.build/Release-iphoneos/PDKEngine.build/PDKEngine-own-target-headers.hmap -I/Users/spencerwhyte/Desktop/PDKEngine/build/PDKEngine.build/Release-iphoneos/PDKEngine.build/PDKEngine-all-target-headers.hmap -iquote /Users/spencerwhyte/Desktop/PDKEngine/build/PDKEngine.build/Release-iphoneos/PDKEngine.build/PDKEngine-project-headers.hmap -F/Users/spencerwhyte/Desktop/PDKEngine/build/Release-iphoneos -I/Users/spencerwhyte/Desktop/PDKEngine/build/Release-iphoneos/include -I/Users/spencerwhyte/Desktop/PDKEngine/build/PDKEngine.build/Release-iphoneos/PDKEngine.build/DerivedSources/armv7 -I/Users/spencerwhyte/Desktop/PDKEngine/build/PDKEngine.build/Release-iphoneos/PDKEngine.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/t+/t+mDLEErH10OmrEqCleGzk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PDKEngine_Prefix-hiptotdyninjkkfommcfdwmkinyd/PDKEngine_Prefix.pch -c /Users/spencerwhyte/Desktop/PDKEngine/Classes/../DocumentsScrollViewController.m -o /Users/spencerwhyte/Desktop/PDKEngine/build/PDKEngine.build/Release-iphoneos/PDKEngine.build/Objects-normal/armv7/DocumentsScrollViewController.o0#
+
+CCompileC build/PDKEngine.build/Release-iphoneos/PDKEngine.build/Objects-normal/armv7/EAGLView.o /Users/spencerwhyte/Desktop/PDKEngine/Classes/EAGLView.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s315633949.609435
+e315633949.784062
+r1
+xCompileC
+xbuild/PDKEngine.build/Release-iphoneos/PDKEngine.build/Objects-normal/armv7/EAGLView.o
+x/Users/spencerwhyte/Desktop/PDKEngine/Classes/EAGLView.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/spencerwhyte/Desktop/PDKEngine/Classes/Networking.h:11: warning: 'netService' defined but not used
+o/Users/spencerwhyte/Desktop/PDKEngine/Classes/ModeSelectorController.h:13: warning: 'defaultImageView' defined but not used
+lSLF07#2@64"Compile /Users/spencerwhyte/Desktop/PDKEngine/Classes/EAGLView.m315633949#315633949#0(230"/Users/spencerwhyte/Desktop/PDKEngine/Classes/Networking.h:11: warning: 'netService' defined but not used/Users/spencerwhyte/Desktop/PDKEngine/Classes/ModeSelectorController.h:13: warning: 'defaultImageView' defined but not used2(22@33"'netService' defined but not used315633949#0#106#0(6@58"/Users/spencerwhyte/Desktop/PDKEngine/Classes/Networking.h315633807#11#0#11#0#24"'*' defined but not used0(22@39"'defaultImageView' defined but not used315633949#106#124#0(6@70"/Users/spencerwhyte/Desktop/PDKEngine/Classes/ModeSelectorController.h315043079#13#0#13#0#24"'*' defined but not used0(0#0#56"/Users/spencerwhyte/Desktop/PDKEngine/Classes/EAGLView.m8621364000#1828"    cd /Users/spencerwhyte/Desktop/PDKEngine    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote /Users/spencerwhyte/Desktop/PDKEngine/build/PDKEngine.build/Release-iphoneos/PDKEngine.build/PDKEngine-generated-files.hmap -I/Users/spencerwhyte/Desktop/PDKEngine/build/PDKEngine.build/Release-iphoneos/PDKEngine.build/PDKEngine-own-target-headers.hmap -I/Users/spencerwhyte/Desktop/PDKEngine/build/PDKEngine.build/Release-iphoneos/PDKEngine.build/PDKEngine-all-target-headers.hmap -iquote /Users/spencerwhyte/Desktop/PDKEngine/build/PDKEngine.build/Release-iphoneos/PDKEngine.build/PDKEngine-project-headers.hmap -F/Users/spencerwhyte/Desktop/PDKEngine/build/Release-iphoneos -I/Users/spencerwhyte/Desktop/PDKEngine/build/Release-iphoneos/include -I/Users/spencerwhyte/Desktop/PDKEngine/build/PDKEngine.build/Release-iphoneos/PDKEngine.build/DerivedSources/armv7 -I/Users/spencerwhyte/Desktop/PDKEngine/build/PDKEngine.build/Release-iphoneos/PDKEngine.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/t+/t+mDLEErH10OmrEqCleGzk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PDKEngine_Prefix-hiptotdyninjkkfommcfdwmkinyd/PDKEngine_Prefix.pch -c /Users/spencerwhyte/Desktop/PDKEngine/Classes/EAGLView.m -o /Users/spencerwhyte/Desktop/PDKEngine/build/PDKEngine.build/Release-iphoneos/PDKEngine.build/Objects-normal/armv7/EAGLView.o0#
+
+CCompileC build/PDKEngine.build/Release-iphoneos/PDKEngine.build/Objects-normal/armv7/ModeSelectorController.o /Users/spencerwhyte/Desktop/PDKEngine/Classes/ModeSelectorController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s315633949.878839
+e315633950.101185
+r1
+xCompileC
+xbuild/PDKEngine.build/Release-iphoneos/PDKEngine.build/Objects-normal/armv7/ModeSelectorController.o
+x/Users/spencerwhyte/Desktop/PDKEngine/Classes/ModeSelectorController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/spencerwhyte/Desktop/PDKEngine/Classes/Networking.h:11: warning: 'netService' defined but not used
+lSLF07#2@78"Compile /Users/spencerwhyte/Desktop/PDKEngine/Classes/ModeSelectorController.m315633949#315633950#0(106"/Users/spencerwhyte/Desktop/PDKEngine/Classes/Networking.h:11: warning: 'netService' defined but not used1(22@33"'netService' defined but not used315633949#0#106#0(6@58"/Users/spencerwhyte/Desktop/PDKEngine/Classes/Networking.h315633807#11#0#11#0#24"'*' defined but not used0(0#0#70"/Users/spencerwhyte/Desktop/PDKEngine/Classes/ModeSelectorController.m8622778016#1856"    cd /Users/spencerwhyte/Desktop/PDKEngine    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote /Users/spencerwhyte/Desktop/PDKEngine/build/PDKEngine.build/Release-iphoneos/PDKEngine.build/PDKEngine-generated-files.hmap -I/Users/spencerwhyte/Desktop/PDKEngine/build/PDKEngine.build/Release-iphoneos/PDKEngine.build/PDKEngine-own-target-headers.hmap -I/Users/spencerwhyte/Desktop/PDKEngine/build/PDKEngine.build/Release-iphoneos/PDKEngine.build/PDKEngine-all-target-headers.hmap -iquote /Users/spencerwhyte/Desktop/PDKEngine/build/PDKEngine.build/Release-iphoneos/PDKEngine.build/PDKEngine-project-headers.hmap -F/Users/spencerwhyte/Desktop/PDKEngine/build/Release-iphoneos -I/Users/spencerwhyte/Desktop/PDKEngine/build/Release-iphoneos/include -I/Users/spencerwhyte/Desktop/PDKEngine/build/PDKEngine.build/Release-iphoneos/PDKEngine.build/DerivedSources/armv7 -I/Users/spencerwhyte/Desktop/PDKEngine/build/PDKEngine.build/Release-iphoneos/PDKEngine.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/t+/t+mDLEErH10OmrEqCleGzk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PDKEngine_Prefix-hiptotdyninjkkfommcfdwmkinyd/PDKEngine_Prefix.pch -c /Users/spencerwhyte/Desktop/PDKEngine/Classes/ModeSelectorController.m -o /Users/spencerwhyte/Desktop/PDKEngine/build/PDKEngine.build/Release-iphoneos/PDKEngine.build/Objects-normal/armv7/ModeSelectorController.o0#
+
+CCompileC build/PDKEngine.build/Release-iphoneos/PDKEngine.build/Objects-normal/armv7/NavigationController.o /Users/spencerwhyte/Desktop/PDKEngine/Classes/NavigationController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s313905992.226953
+e313905992.307622
+r1
+xCompileC
+xbuild/PDKEngine.build/Release-iphoneos/PDKEngine.build/Objects-normal/armv7/NavigationController.o
+x/Users/spencerwhyte/Desktop/PDKEngine/Classes/NavigationController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@76"Compile /Users/spencerwhyte/Desktop/PDKEngine/Classes/NavigationController.m313905992#313905992#0(0"0(0#0#68"/Users/spencerwhyte/Desktop/PDKEngine/Classes/NavigationController.m8726726944#1852"    cd /Users/spencerwhyte/Desktop/PDKEngine    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote /Users/spencerwhyte/Desktop/PDKEngine/build/PDKEngine.build/Release-iphoneos/PDKEngine.build/PDKEngine-generated-files.hmap -I/Users/spencerwhyte/Desktop/PDKEngine/build/PDKEngine.build/Release-iphoneos/PDKEngine.build/PDKEngine-own-target-headers.hmap -I/Users/spencerwhyte/Desktop/PDKEngine/build/PDKEngine.build/Release-iphoneos/PDKEngine.build/PDKEngine-all-target-headers.hmap -iquote /Users/spencerwhyte/Desktop/PDKEngine/build/PDKEngine.build/Release-iphoneos/PDKEngine.build/PDKEngine-project-headers.hmap -F/Users/spencerwhyte/Desktop/PDKEngine/build/Release-iphoneos -I/Users/spencerwhyte/Desktop/PDKEngine/build/Release-iphoneos/include -I/Users/spencerwhyte/Desktop/PDKEngine/build/PDKEngine.build/Release-iphoneos/PDKEngine.build/DerivedSources/armv7 -I/Users/spencerwhyte/Desktop/PDKEngine/build/PDKEngine.build/Release-iphoneos/PDKEngine.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/t+/t+mDLEErH10OmrEqCleGzk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PDKEngine_Prefix-hiptotdyninjkkfommcfdwmkinyd/PDKEngine_Prefix.pch -c /Users/spencerwhyte/Desktop/PDKEngine/Classes/NavigationController.m -o /Users/spencerwhyte/Desktop/PDKEngine/build/PDKEngine.build/Release-iphoneos/PDKEngine.build/Objects-normal/armv7/NavigationController.o0#
+
+CCompileC build/PDKEngine.build/Release-iphoneos/PDKEngine.build/Objects-normal/armv7/Networking.o /Users/spencerwhyte/Desktop/PDKEngine/Classes/Networking.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s315633949.833264
+e315633949.907259
+r1
+xCompileC
+xbuild/PDKEngine.build/Release-iphoneos/PDKEngine.build/Objects-normal/armv7/Networking.o
+x/Users/spencerwhyte/Desktop/PDKEngine/Classes/Networking.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@66"Compile /Users/spencerwhyte/Desktop/PDKEngine/Classes/Networking.m315633949#315633949#0(0"0(0#0#58"/Users/spencerwhyte/Desktop/PDKEngine/Classes/Networking.m8615312160#1832"    cd /Users/spencerwhyte/Desktop/PDKEngine    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote /Users/spencerwhyte/Desktop/PDKEngine/build/PDKEngine.build/Release-iphoneos/PDKEngine.build/PDKEngine-generated-files.hmap -I/Users/spencerwhyte/Desktop/PDKEngine/build/PDKEngine.build/Release-iphoneos/PDKEngine.build/PDKEngine-own-target-headers.hmap -I/Users/spencerwhyte/Desktop/PDKEngine/build/PDKEngine.build/Release-iphoneos/PDKEngine.build/PDKEngine-all-target-headers.hmap -iquote /Users/spencerwhyte/Desktop/PDKEngine/build/PDKEngine.build/Release-iphoneos/PDKEngine.build/PDKEngine-project-headers.hmap -F/Users/spencerwhyte/Desktop/PDKEngine/build/Release-iphoneos -I/Users/spencerwhyte/Desktop/PDKEngine/build/Release-iphoneos/include -I/Users/spencerwhyte/Desktop/PDKEngine/build/PDKEngine.build/Release-iphoneos/PDKEngine.build/DerivedSources/armv7 -I/Users/spencerwhyte/Desktop/PDKEngine/build/PDKEngine.build/Release-iphoneos/PDKEngine.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/t+/t+mDLEErH10OmrEqCleGzk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PDKEngine_Prefix-hiptotdyninjkkfommcfdwmkinyd/PDKEngine_Prefix.pch -c /Users/spencerwhyte/Desktop/PDKEngine/Classes/Networking.m -o /Users/spencerwhyte/Desktop/PDKEngine/build/PDKEngine.build/Release-iphoneos/PDKEngine.build/Objects-normal/armv7/Networking.o0#
+
+CCompileC build/PDKEngine.build/Release-iphoneos/PDKEngine.build/Objects-normal/armv7/PDKEngineAppDelegate.o /Users/spencerwhyte/Desktop/PDKEngine/Classes/PDKEngineAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s313905991.968664
+e313905992.117743
+r1
+xCompileC
+xbuild/PDKEngine.build/Release-iphoneos/PDKEngine.build/Objects-normal/armv7/PDKEngineAppDelegate.o
+x/Users/spencerwhyte/Desktop/PDKEngine/Classes/PDKEngineAppDelegate.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@76"Compile /Users/spencerwhyte/Desktop/PDKEngine/Classes/PDKEngineAppDelegate.m313905991#313905992#0(0"0(0#0#68"/Users/spencerwhyte/Desktop/PDKEngine/Classes/PDKEngineAppDelegate.m8732324320#1852"    cd /Users/spencerwhyte/Desktop/PDKEngine    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote /Users/spencerwhyte/Desktop/PDKEngine/build/PDKEngine.build/Release-iphoneos/PDKEngine.build/PDKEngine-generated-files.hmap -I/Users/spencerwhyte/Desktop/PDKEngine/build/PDKEngine.build/Release-iphoneos/PDKEngine.build/PDKEngine-own-target-headers.hmap -I/Users/spencerwhyte/Desktop/PDKEngine/build/PDKEngine.build/Release-iphoneos/PDKEngine.build/PDKEngine-all-target-headers.hmap -iquote /Users/spencerwhyte/Desktop/PDKEngine/build/PDKEngine.build/Release-iphoneos/PDKEngine.build/PDKEngine-project-headers.hmap -F/Users/spencerwhyte/Desktop/PDKEngine/build/Release-iphoneos -I/Users/spencerwhyte/Desktop/PDKEngine/build/Release-iphoneos/include -I/Users/spencerwhyte/Desktop/PDKEngine/build/PDKEngine.build/Release-iphoneos/PDKEngine.build/DerivedSources/armv7 -I/Users/spencerwhyte/Desktop/PDKEngine/build/PDKEngine.build/Release-iphoneos/PDKEngine.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/t+/t+mDLEErH10OmrEqCleGzk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PDKEngine_Prefix-hiptotdyninjkkfommcfdwmkinyd/PDKEngine_Prefix.pch -c /Users/spencerwhyte/Desktop/PDKEngine/Classes/PDKEngineAppDelegate.m -o /Users/spencerwhyte/Desktop/PDKEngine/build/PDKEngine.build/Release-iphoneos/PDKEngine.build/Objects-normal/armv7/PDKEngineAppDelegate.o0#
+
+CCompileC build/PDKEngine.build/Release-iphoneos/PDKEngine.build/Objects-normal/armv7/PDKEngineViewController.o /Users/spencerwhyte/Desktop/PDKEngine/Classes/PDKEngineViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s315633949.784157
+e315633950.038383
+r1
+xCompileC
+xbuild/PDKEngine.build/Release-iphoneos/PDKEngine.build/Objects-normal/armv7/PDKEngineViewController.o
+x/Users/spencerwhyte/Desktop/PDKEngine/Classes/PDKEngineViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/spencerwhyte/Desktop/PDKEngine/Classes/Networking.h:11: warning: 'netService' defined but not used
+o/Users/spencerwhyte/Desktop/PDKEngine/Classes/ModeSelectorController.h:13: warning: 'defaultImageView' defined but not used
+lSLF07#2@79"Compile /Users/spencerwhyte/Desktop/PDKEngine/Classes/PDKEngineViewController.m315633949#315633950#0(230"/Users/spencerwhyte/Desktop/PDKEngine/Classes/Networking.h:11: warning: 'netService' defined but not used/Users/spencerwhyte/Desktop/PDKEngine/Classes/ModeSelectorController.h:13: warning: 'defaultImageView' defined but not used2(22@33"'netService' defined but not used315633949#0#106#0(6@58"/Users/spencerwhyte/Desktop/PDKEngine/Classes/Networking.h315633807#11#0#11#0#24"'*' defined but not used0(22@39"'defaultImageView' defined but not used315633949#106#124#0(6@70"/Users/spencerwhyte/Desktop/PDKEngine/Classes/ModeSelectorController.h315043079#13#0#13#0#24"'*' defined but not used0(0#0#71"/Users/spencerwhyte/Desktop/PDKEngine/Classes/PDKEngineViewController.m8621749824#1858"    cd /Users/spencerwhyte/Desktop/PDKEngine    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote /Users/spencerwhyte/Desktop/PDKEngine/build/PDKEngine.build/Release-iphoneos/PDKEngine.build/PDKEngine-generated-files.hmap -I/Users/spencerwhyte/Desktop/PDKEngine/build/PDKEngine.build/Release-iphoneos/PDKEngine.build/PDKEngine-own-target-headers.hmap -I/Users/spencerwhyte/Desktop/PDKEngine/build/PDKEngine.build/Release-iphoneos/PDKEngine.build/PDKEngine-all-target-headers.hmap -iquote /Users/spencerwhyte/Desktop/PDKEngine/build/PDKEngine.build/Release-iphoneos/PDKEngine.build/PDKEngine-project-headers.hmap -F/Users/spencerwhyte/Desktop/PDKEngine/build/Release-iphoneos -I/Users/spencerwhyte/Desktop/PDKEngine/build/Release-iphoneos/include -I/Users/spencerwhyte/Desktop/PDKEngine/build/PDKEngine.build/Release-iphoneos/PDKEngine.build/DerivedSources/armv7 -I/Users/spencerwhyte/Desktop/PDKEngine/build/PDKEngine.build/Release-iphoneos/PDKEngine.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/t+/t+mDLEErH10OmrEqCleGzk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PDKEngine_Prefix-hiptotdyninjkkfommcfdwmkinyd/PDKEngine_Prefix.pch -c /Users/spencerwhyte/Desktop/PDKEngine/Classes/PDKEngineViewController.m -o /Users/spencerwhyte/Desktop/PDKEngine/build/PDKEngine.build/Release-iphoneos/PDKEngine.build/Objects-normal/armv7/PDKEngineViewController.o0#
+
+CCompileC build/PDKEngine.build/Release-iphoneos/PDKEngine.build/Objects-normal/armv7/main.o /Users/spencerwhyte/Desktop/PDKEngine/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s313905991.933851
+e313905992.004440
+r1
+xCompileC
+xbuild/PDKEngine.build/Release-iphoneos/PDKEngine.build/Objects-normal/armv7/main.o
+x/Users/spencerwhyte/Desktop/PDKEngine/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@52"Compile /Users/spencerwhyte/Desktop/PDKEngine/main.m313905991#313905992#0(0"0(0#0#44"/Users/spencerwhyte/Desktop/PDKEngine/main.m8733803072#1812"    cd /Users/spencerwhyte/Desktop/PDKEngine    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote /Users/spencerwhyte/Desktop/PDKEngine/build/PDKEngine.build/Release-iphoneos/PDKEngine.build/PDKEngine-generated-files.hmap -I/Users/spencerwhyte/Desktop/PDKEngine/build/PDKEngine.build/Release-iphoneos/PDKEngine.build/PDKEngine-own-target-headers.hmap -I/Users/spencerwhyte/Desktop/PDKEngine/build/PDKEngine.build/Release-iphoneos/PDKEngine.build/PDKEngine-all-target-headers.hmap -iquote /Users/spencerwhyte/Desktop/PDKEngine/build/PDKEngine.build/Release-iphoneos/PDKEngine.build/PDKEngine-project-headers.hmap -F/Users/spencerwhyte/Desktop/PDKEngine/build/Release-iphoneos -I/Users/spencerwhyte/Desktop/PDKEngine/build/Release-iphoneos/include -I/Users/spencerwhyte/Desktop/PDKEngine/build/PDKEngine.build/Release-iphoneos/PDKEngine.build/DerivedSources/armv7 -I/Users/spencerwhyte/Desktop/PDKEngine/build/PDKEngine.build/Release-iphoneos/PDKEngine.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/t+/t+mDLEErH10OmrEqCleGzk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PDKEngine_Prefix-hiptotdyninjkkfommcfdwmkinyd/PDKEngine_Prefix.pch -c /Users/spencerwhyte/Desktop/PDKEngine/main.m -o /Users/spencerwhyte/Desktop/PDKEngine/build/PDKEngine.build/Release-iphoneos/PDKEngine.build/Objects-normal/armv7/main.o0#
+
+CCompileXIB /Users/spencerwhyte/Desktop/PDKEngine/Classes/../PDKEngineViewController.xib
+s313905985.021667
+e313905988.115605
+r1
+xCompileXIB
+x/Users/spencerwhyte/Desktop/PDKEngine/Classes/../PDKEngineViewController.xib
+lSLF07#2@49"CompileXIB Classes/../PDKEngineViewController.xib313905985#313905988#0(0"0(0#0#76"/Users/spencerwhyte/Desktop/PDKEngine/Classes/../PDKEngineViewController.xib8730096800#580"    cd /Users/spencerwhyte/Desktop/PDKEngine    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.1    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/spencerwhyte/Desktop/PDKEngine/build/Release-iphoneos/PDKEngine.app/PDKEngineViewController.nib /Users/spencerwhyte/Desktop/PDKEngine/Classes/../PDKEngineViewController.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk0#
+
+CCompileXIB /Users/spencerwhyte/Desktop/PDKEngine/MainWindow.xib
+s313905985.020692
+e313905988.115836
+r1
+xCompileXIB
+x/Users/spencerwhyte/Desktop/PDKEngine/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib313905985#313905988#0(0"0(0#0#52"/Users/spencerwhyte/Desktop/PDKEngine/MainWindow.xib8731322368#543"    cd /Users/spencerwhyte/Desktop/PDKEngine    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.1    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/spencerwhyte/Desktop/PDKEngine/build/Release-iphoneos/PDKEngine.app/MainWindow.nib /Users/spencerwhyte/Desktop/PDKEngine/MainWindow.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk0#
+
+CCopyPNGFile /Users/spencerwhyte/Desktop/PDKEngine/build/Release-iphoneos/PDKEngine.app/Default.png Classes/Default.png
+s315043672.499462
+e315043672.588442
+r1
+xCopyPNGFile
+x/Users/spencerwhyte/Desktop/PDKEngine/build/Release-iphoneos/PDKEngine.app/Default.png
+xClasses/Default.png
+lSLF07#2@80"CopyPNGFile build/Release-iphoneos/PDKEngine.app/Default.png Classes/Default.png315043672#315043672#0(0"0(0#0#57"/Users/spencerwhyte/Desktop/PDKEngine/Classes/Default.png8710380928#571"    cd /Users/spencerwhyte/Desktop/PDKEngine    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/spencerwhyte/Desktop/PDKEngine/Classes/Default.png /Users/spencerwhyte/Desktop/PDKEngine/build/Release-iphoneos/PDKEngine.app/Default.png0#
+
+CCopyPNGFile /Users/spencerwhyte/Desktop/PDKEngine/build/Release-iphoneos/PDKEngine.app/LogoIdea.png Classes/LogoIdea.png
+s315043040.445091
+e315043041.038562
+r1
+xCopyPNGFile
+x/Users/spencerwhyte/Desktop/PDKEngine/build/Release-iphoneos/PDKEngine.app/LogoIdea.png
+xClasses/LogoIdea.png
+lSLF07#2@82"CopyPNGFile build/Release-iphoneos/PDKEngine.app/LogoIdea.png Classes/LogoIdea.png315043040#315043041#0(0"0(0#0#58"/Users/spencerwhyte/Desktop/PDKEngine/Classes/LogoIdea.png8650056928#573"    cd /Users/spencerwhyte/Desktop/PDKEngine    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/spencerwhyte/Desktop/PDKEngine/Classes/LogoIdea.png /Users/spencerwhyte/Desktop/PDKEngine/build/Release-iphoneos/PDKEngine.app/LogoIdea.png0#
+
+CCopyPNGFile /Users/spencerwhyte/Desktop/PDKEngine/build/Release-iphoneos/PDKEngine.app/defaultImage.png defaultImage.png
+s313905985.114230
+e313905986.632707
+r1
+xCopyPNGFile
+x/Users/spencerwhyte/Desktop/PDKEngine/build/Release-iphoneos/PDKEngine.app/defaultImage.png
+xdefaultImage.png
+lSLF07#2@82"CopyPNGFile build/Release-iphoneos/PDKEngine.app/defaultImage.png defaultImage.png313905985#313905986#0(0"0(0#0#54"/Users/spencerwhyte/Desktop/PDKEngine/defaultImage.png8728226208#573"    cd /Users/spencerwhyte/Desktop/PDKEngine    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/spencerwhyte/Desktop/PDKEngine/defaultImage.png /Users/spencerwhyte/Desktop/PDKEngine/build/Release-iphoneos/PDKEngine.app/defaultImage.png0#
+
+CCpResource build/Release-iphoneos/PDKEngine.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/ResourceRules.plist
+s313905984.911382
+e313905985.019179
+r1
+xCpResource
+xbuild/Release-iphoneos/PDKEngine.app/ResourceRules.plist
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/ResourceRules.plist
+lSLF07#2@94"Copy /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/ResourceRules.plist313905984#313905985#0(0"0(0#0#89"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/ResourceRules.plist8700900576#503"    cd /Users/spencerwhyte/Desktop/PDKEngine    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/ResourceRules.plist /Users/spencerwhyte/Desktop/PDKEngine/build/Release-iphoneos/PDKEngine.app0#
+
+CCpResource build/Release-iphoneos/PDKEngine.app/Shader.fsh Shaders/Shader.fsh
+s313905985.019297
+e313905985.114103
+r1
+xCpResource
+xbuild/Release-iphoneos/PDKEngine.app/Shader.fsh
+xShaders/Shader.fsh
+lSLF07#2@23"Copy Shaders/Shader.fsh313905985#313905985#0(0"0(0#0#56"/Users/spencerwhyte/Desktop/PDKEngine/Shaders/Shader.fsh8733488992#470"    cd /Users/spencerwhyte/Desktop/PDKEngine    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/spencerwhyte/Desktop/PDKEngine/Shaders/Shader.fsh /Users/spencerwhyte/Desktop/PDKEngine/build/Release-iphoneos/PDKEngine.app0#
+
+CCpResource build/Release-iphoneos/PDKEngine.app/Shader.vsh Shaders/Shader.vsh
+s313905985.020085
+e313905985.115323
+r1
+xCpResource
+xbuild/Release-iphoneos/PDKEngine.app/Shader.vsh
+xShaders/Shader.vsh
+lSLF07#2@23"Copy Shaders/Shader.vsh313905985#313905985#0(0"0(0#0#56"/Users/spencerwhyte/Desktop/PDKEngine/Shaders/Shader.vsh8732067552#470"    cd /Users/spencerwhyte/Desktop/PDKEngine    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/spencerwhyte/Desktop/PDKEngine/Shaders/Shader.vsh /Users/spencerwhyte/Desktop/PDKEngine/build/Release-iphoneos/PDKEngine.app0#
+
+CCreateUniversalBinary /Users/spencerwhyte/Desktop/PDKEngine/build/Release-iphoneos/PDKEngine.app/PDKEngine normal "armv6 armv7"
+s315636028.595475
+e315636028.598758
+r1
+xCreateUniversalBinary
+x/Users/spencerwhyte/Desktop/PDKEngine/build/Release-iphoneos/PDKEngine.app/PDKEngine
+xnormal
+xarmv6 armv7
+lSLF07#2@89"CreateUniversalBinary build/Release-iphoneos/PDKEngine.app/PDKEngine normal "armv6 armv7"315636028#315636028#0(0"0(0#0#49"/Users/spencerwhyte/Desktop/PDKEngine/armv6 armv78623459712#536"    cd /Users/spencerwhyte/Desktop/PDKEngine    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/lipo -create /Users/spencerwhyte/Desktop/PDKEngine/build/PDKEngine.build/Release-iphoneos/PDKEngine.build/Objects-normal/armv6/PDKEngine /Users/spencerwhyte/Desktop/PDKEngine/build/PDKEngine.build/Release-iphoneos/PDKEngine.build/Objects-normal/armv7/PDKEngine -output /Users/spencerwhyte/Desktop/PDKEngine/build/Release-iphoneos/PDKEngine.app/PDKEngine0#
+
+CGenerateDSYMFile /Users/spencerwhyte/Desktop/PDKEngine/build/Release-iphoneos/PDKEngine.app.dSYM /Users/spencerwhyte/Desktop/PDKEngine/build/Release-iphoneos/PDKEngine.app/PDKEngine
+s315636028.598833
+e315636028.635297
+r1
+xGenerateDSYMFile
+x/Users/spencerwhyte/Desktop/PDKEngine/build/Release-iphoneos/PDKEngine.app.dSYM
+x/Users/spencerwhyte/Desktop/PDKEngine/build/Release-iphoneos/PDKEngine.app/PDKEngine
+lSLF07#2@105"GenerateDSYMFile build/Release-iphoneos/PDKEngine.app.dSYM build/Release-iphoneos/PDKEngine.app/PDKEngine315636028#315636028#0(0"0(0#0#84"/Users/spencerwhyte/Desktop/PDKEngine/build/Release-iphoneos/PDKEngine.app/PDKEngine8616993184#369"    cd /Users/spencerwhyte/Desktop/PDKEngine    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/spencerwhyte/Desktop/PDKEngine/build/Release-iphoneos/PDKEngine.app/PDKEngine -o /Users/spencerwhyte/Desktop/PDKEngine/build/Release-iphoneos/PDKEngine.app.dSYM0#
+
+CLd /Users/spencerwhyte/Desktop/PDKEngine/build/PDKEngine.build/Release-iphoneos/PDKEngine.build/Objects-normal/armv6/PDKEngine normal armv6
+s315636028.564677
+e315636028.595077
+r1
+xLd
+x/Users/spencerwhyte/Desktop/PDKEngine/build/PDKEngine.build/Release-iphoneos/PDKEngine.build/Objects-normal/armv6/PDKEngine
+xnormal
+xarmv6
+lSLF07#2@128"Link /Users/spencerwhyte/Desktop/PDKEngine/build/PDKEngine.build/Release-iphoneos/PDKEngine.build/Objects-normal/armv6/PDKEngine315636028#315636028#0(0"0(0#0#0"8626970240#918"    cd /Users/spencerwhyte/Desktop/PDKEngine    setenv IPHONEOS_DEPLOYMENT_TARGET 4.1    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv6 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -L/Users/spencerwhyte/Desktop/PDKEngine/build/Release-iphoneos -F/Users/spencerwhyte/Desktop/PDKEngine/build/Release-iphoneos -filelist /Users/spencerwhyte/Desktop/PDKEngine/build/PDKEngine.build/Release-iphoneos/PDKEngine.build/Objects-normal/armv6/PDKEngine.LinkFileList -dead_strip -miphoneos-version-min=4.1 -framework Foundation -framework UIKit -framework OpenGLES -framework QuartzCore -framework CoreFoundation -o /Users/spencerwhyte/Desktop/PDKEngine/build/PDKEngine.build/Release-iphoneos/PDKEngine.build/Objects-normal/armv6/PDKEngine0#
+
+CLd /Users/spencerwhyte/Desktop/PDKEngine/build/PDKEngine.build/Release-iphoneos/PDKEngine.build/Objects-normal/armv7/PDKEngine normal armv7
+s315636028.565688
+e315636028.595416
+r1
+xLd
+x/Users/spencerwhyte/Desktop/PDKEngine/build/PDKEngine.build/Release-iphoneos/PDKEngine.build/Objects-normal/armv7/PDKEngine
+xnormal
+xarmv7
+lSLF07#2@128"Link /Users/spencerwhyte/Desktop/PDKEngine/build/PDKEngine.build/Release-iphoneos/PDKEngine.build/Objects-normal/armv7/PDKEngine315636028#315636028#0(0"0(0#0#0"8626675136#918"    cd /Users/spencerwhyte/Desktop/PDKEngine    setenv IPHONEOS_DEPLOYMENT_TARGET 4.1    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv7 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -L/Users/spencerwhyte/Desktop/PDKEngine/build/Release-iphoneos -F/Users/spencerwhyte/Desktop/PDKEngine/build/Release-iphoneos -filelist /Users/spencerwhyte/Desktop/PDKEngine/build/PDKEngine.build/Release-iphoneos/PDKEngine.build/Objects-normal/armv7/PDKEngine.LinkFileList -dead_strip -miphoneos-version-min=4.1 -framework Foundation -framework UIKit -framework OpenGLES -framework QuartzCore -framework CoreFoundation -o /Users/spencerwhyte/Desktop/PDKEngine/build/PDKEngine.build/Release-iphoneos/PDKEngine.build/Objects-normal/armv7/PDKEngine0#
+
+CProcessInfoPlistFile /Users/spencerwhyte/Desktop/PDKEngine/build/Release-iphoneos/PDKEngine.app/Info.plist PDKEngine-Info.plist
+s313905984.926430
+e313905984.963715
+r1
+xProcessInfoPlistFile
+x/Users/spencerwhyte/Desktop/PDKEngine/build/Release-iphoneos/PDKEngine.app/Info.plist
+xPDKEngine-Info.plist
+lSLF07#2@28"Process PDKEngine-Info.plist313905984#313905984#0(0"0(0#0#58"/Users/spencerwhyte/Desktop/PDKEngine/PDKEngine-Info.plist8694369056#572"    cd /Users/spencerwhyte/Desktop/PDKEngine    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility PDKEngine-Info.plist -genpkginfo /Users/spencerwhyte/Desktop/PDKEngine/build/Release-iphoneos/PDKEngine.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/spencerwhyte/Desktop/PDKEngine/build/Release-iphoneos/PDKEngine.app/ResourceRules.plist -o /Users/spencerwhyte/Desktop/PDKEngine/build/Release-iphoneos/PDKEngine.app/Info.plist0#
+
+CProcessPCH /var/folders/t+/t+mDLEErH10OmrEqCleGzk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PDKEngine_Prefix-bjmckpheloevhjbbcsqlfixiahzp/PDKEngine_Prefix.pch.gch PDKEngine_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+s313905988.115914
+e313905991.376336
+r1
+xProcessPCH
+x/var/folders/t+/t+mDLEErH10OmrEqCleGzk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PDKEngine_Prefix-bjmckpheloevhjbbcsqlfixiahzp/PDKEngine_Prefix.pch.gch
+xPDKEngine_Prefix.pch
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@31"Precompile PDKEngine_Prefix.pch313905988#313905991#0(0"0(0#0#58"/Users/spencerwhyte/Desktop/PDKEngine/PDKEngine_Prefix.pch8733498528#1699"    cd /Users/spencerwhyte/Desktop/PDKEngine    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -miphoneos-version-min=4.1 -iquote /Users/spencerwhyte/Desktop/PDKEngine/build/PDKEngine.build/Release-iphoneos/PDKEngine.build/PDKEngine-generated-files.hmap -I/Users/spencerwhyte/Desktop/PDKEngine/build/PDKEngine.build/Release-iphoneos/PDKEngine.build/PDKEngine-own-target-headers.hmap -I/Users/spencerwhyte/Desktop/PDKEngine/build/PDKEngine.build/Release-iphoneos/PDKEngine.build/PDKEngine-all-target-headers.hmap -iquote /Users/spencerwhyte/Desktop/PDKEngine/build/PDKEngine.build/Release-iphoneos/PDKEngine.build/PDKEngine-project-headers.hmap -F/Users/spencerwhyte/Desktop/PDKEngine/build/Release-iphoneos -I/Users/spencerwhyte/Desktop/PDKEngine/build/Release-iphoneos/include -I/Users/spencerwhyte/Desktop/PDKEngine/build/PDKEngine.build/Release-iphoneos/PDKEngine.build/DerivedSources/armv6 -I/Users/spencerwhyte/Desktop/PDKEngine/build/PDKEngine.build/Release-iphoneos/PDKEngine.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -c /Users/spencerwhyte/Desktop/PDKEngine/PDKEngine_Prefix.pch -o /var/folders/t+/t+mDLEErH10OmrEqCleGzk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PDKEngine_Prefix-bjmckpheloevhjbbcsqlfixiahzp/PDKEngine_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/t+/t+mDLEErH10OmrEqCleGzk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PDKEngine_Prefix-hiptotdyninjkkfommcfdwmkinyd/PDKEngine_Prefix.pch.gch PDKEngine_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+s313905988.116892
+e313905991.018699
+r1
+xProcessPCH
+x/var/folders/t+/t+mDLEErH10OmrEqCleGzk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PDKEngine_Prefix-hiptotdyninjkkfommcfdwmkinyd/PDKEngine_Prefix.pch.gch
+xPDKEngine_Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@31"Precompile PDKEngine_Prefix.pch313905988#313905991#0(0"0(0#0#58"/Users/spencerwhyte/Desktop/PDKEngine/PDKEngine_Prefix.pch8733030432#1707"    cd /Users/spencerwhyte/Desktop/PDKEngine    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote /Users/spencerwhyte/Desktop/PDKEngine/build/PDKEngine.build/Release-iphoneos/PDKEngine.build/PDKEngine-generated-files.hmap -I/Users/spencerwhyte/Desktop/PDKEngine/build/PDKEngine.build/Release-iphoneos/PDKEngine.build/PDKEngine-own-target-headers.hmap -I/Users/spencerwhyte/Desktop/PDKEngine/build/PDKEngine.build/Release-iphoneos/PDKEngine.build/PDKEngine-all-target-headers.hmap -iquote /Users/spencerwhyte/Desktop/PDKEngine/build/PDKEngine.build/Release-iphoneos/PDKEngine.build/PDKEngine-project-headers.hmap -F/Users/spencerwhyte/Desktop/PDKEngine/build/Release-iphoneos -I/Users/spencerwhyte/Desktop/PDKEngine/build/Release-iphoneos/include -I/Users/spencerwhyte/Desktop/PDKEngine/build/PDKEngine.build/Release-iphoneos/PDKEngine.build/DerivedSources/armv7 -I/Users/spencerwhyte/Desktop/PDKEngine/build/PDKEngine.build/Release-iphoneos/PDKEngine.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -c /Users/spencerwhyte/Desktop/PDKEngine/PDKEngine_Prefix.pch -o /var/folders/t+/t+mDLEErH10OmrEqCleGzk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PDKEngine_Prefix-hiptotdyninjkkfommcfdwmkinyd/PDKEngine_Prefix.pch.gch0#
+
+CProcessProductPackaging "/Users/spencerwhyte/Library/MobileDevice/Provisioning Profiles/C8CB3DD6-6A98-45A5-AA2C-5A3CFE2B4A7B.mobileprovision" /Users/spencerwhyte/Desktop/PDKEngine/build/Release-iphoneos/PDKEngine.app/embedded.mobileprovision
+s313905992.722311
+e313905992.756740
+r1
+xProcessProductPackaging
+x/Users/spencerwhyte/Library/MobileDevice/Provisioning Profiles/C8CB3DD6-6A98-45A5-AA2C-5A3CFE2B4A7B.mobileprovision
+x/Users/spencerwhyte/Desktop/PDKEngine/build/Release-iphoneos/PDKEngine.app/embedded.mobileprovision
+lSLF07#2@203"ProcessProductPackaging "/Users/spencerwhyte/Library/MobileDevice/Provisioning Profiles/C8CB3DD6-6A98-45A5-AA2C-5A3CFE2B4A7B.mobileprovision" build/Release-iphoneos/PDKEngine.app/embedded.mobileprovision313905992#313905992#0(0"0(0#0#99"/Users/spencerwhyte/Desktop/PDKEngine/build/Release-iphoneos/PDKEngine.app/embedded.mobileprovision8733735520#432"    cd /Users/spencerwhyte/Desktop/PDKEngine    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> "/Users/spencerwhyte/Library/MobileDevice/Provisioning Profiles/C8CB3DD6-6A98-45A5-AA2C-5A3CFE2B4A7B.mobileprovision" -o /Users/spencerwhyte/Desktop/PDKEngine/build/Release-iphoneos/PDKEngine.app/embedded.mobileprovision0#
+
+CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/Entitlements.plist /Users/spencerwhyte/Desktop/PDKEngine/build/PDKEngine.build/Release-iphoneos/PDKEngine.build/PDKEngine.xcent
+s313905992.764835
+e313905992.771376
+r1
+xProcessProductPackaging
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/Entitlements.plist
+x/Users/spencerwhyte/Desktop/PDKEngine/build/PDKEngine.build/Release-iphoneos/PDKEngine.build/PDKEngine.xcent
+lSLF07#2@183"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/Entitlements.plist build/PDKEngine.build/Release-iphoneos/PDKEngine.build/PDKEngine.xcent313905992#313905992#0(0"0(0#0#108"/Users/spencerwhyte/Desktop/PDKEngine/build/PDKEngine.build/Release-iphoneos/PDKEngine.build/PDKEngine.xcent8728963936#438"    cd /Users/spencerwhyte/Desktop/PDKEngine    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/Entitlements.plist -entitlements -format xml -o /Users/spencerwhyte/Desktop/PDKEngine/build/PDKEngine.build/Release-iphoneos/PDKEngine.build/PDKEngine.xcent0#
+
+CTouch /Users/spencerwhyte/Desktop/PDKEngine/build/Release-iphoneos/PDKEngine.app
+s315636028.635470
+e315636028.637820
+r1
+xTouch
+x/Users/spencerwhyte/Desktop/PDKEngine/build/Release-iphoneos/PDKEngine.app
+lSLF07#2@80"Touch /Users/spencerwhyte/Desktop/PDKEngine/build/Release-iphoneos/PDKEngine.app315636028#315636028#0(0"0(0#0#0"8628157824#266"    cd /Users/spencerwhyte/Desktop/PDKEngine    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/spencerwhyte/Desktop/PDKEngine/build/Release-iphoneos/PDKEngine.app0#
+
+CValidate /Users/spencerwhyte/Desktop/PDKEngine/build/Release-iphoneos/PDKEngine.app
+s315816133.191130
+e315816133.616911
+r1
+xValidate
+x/Users/spencerwhyte/Desktop/PDKEngine/build/Release-iphoneos/PDKEngine.app
+owarning: iPhone/iPod Touch: Info.plist: Unable to verify icon dimensions, no icon found.  You must define CFBundleIconFile, CFBundleIconFiles, or provide a default Icon.png that is 57x57 (-19013)
+oUnable to validate your application. - (null)
+o
+lSLF07#2@45"Validate build/Release-iphoneos/PDKEngine.app315816133#315816133#0(243"warning: iPhone/iPod Touch: Info.plist: Unable to verify icon dimensions, no icon found.  You must define CFBundleIconFile, CFBundleIconFiles, or provide a default Icon.png that is 57x57 (-19013)Unable to validate your application. - (null)1(22@187" iPhone/iPod Touch: Info.plist: Unable to verify icon dimensions, no icon found.  You must define CFBundleIconFile, CFBundleIconFiles, or provide a default Icon.png that is 57x57 (-19013)315816133#18446744073709551615#0#0(6@0"315816133#0#0#0#0#0"0(0#0#74"/Users/spencerwhyte/Desktop/PDKEngine/build/Release-iphoneos/PDKEngine.app8626618944#375"    cd /Users/spencerwhyte/Desktop/PDKEngine    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv PRODUCT_TYPE com.apple.product-type.application    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/Validation /Users/spencerwhyte/Desktop/PDKEngine/build/Release-iphoneos/PDKEngine.app0#
+
